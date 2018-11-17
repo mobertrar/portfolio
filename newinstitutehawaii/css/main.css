@@ -1,0 +1,26 @@
+div {
+  width: 200px; 
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 100%;
+  background-image: url("../img/NI\ Logo.png\ -\ Shortcut.lnk");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  border: 20px dotted violet;
+  border-radius: 100%;
+}
+
+.onelogo{
+  border: 10px dashed orangered;
+
+ 
+}
+
+.twologo{
+  border: 10px double orangered;
+
+ 
+}
