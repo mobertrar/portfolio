@@ -1,16 +1,28 @@
+/* css is where we do our formating */
+/* we create rule sets */
+/* A rule set has a selector, i.e. div */
+/* Then it has Declaration Block, {
+  
+}*/
+/* The Declaration Block has Declarations, i.e. width, height, border, border radius, background-image, back-ground size, background-repeat, display */
+/* Each Declaration has properties and values */
+
 div {
   width: 200px; 
   height: 200px;
   border: 1px solid red;
   border-radius: 100%;
-  background-image: url("../img/NI\ Logo.png\ -\ Shortcut.lnk");
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url("../img/NI\ Logo.png\ -\ Shortcut.lnk"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  display: inline-block; 
 }
 
 img {
   border: 20px dotted violet;
   border-radius: 100%;
+  padding: 20px;
+  margin: 40px;
 }
 
 .onelogo{
