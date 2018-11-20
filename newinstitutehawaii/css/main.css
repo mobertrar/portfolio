@@ -12,17 +12,18 @@ div {
   height: 200px;
   border: 1px solid red;
   border-radius: 100%;
-  /* background-image: url("../img/NI\ Logo.png\ -\ Shortcut.lnk"); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-image: url("../img/NI\ Logo.png\ -\ Shortcut.lnk"); 
+  background-size: cover;
+  background-repeat: no-repeat;
   display: inline-block; 
 }
 
 img {
+  width: 200px;
+  box-sizing: border-box;
   border: 20px dotted violet;
-  border-radius: 100%;
   padding: 20px;
-  margin: 40px;
+ 
 }
 
 .onelogo{
