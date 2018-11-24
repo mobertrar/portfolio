@@ -1,6 +1,7 @@
 h1{
-  font-family: seri"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2rem;
   font-weight: normal;
-  font-style: oblique;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
