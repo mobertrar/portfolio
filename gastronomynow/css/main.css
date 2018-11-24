@@ -1,0 +1,50 @@
+/* css is where we do our formating */
+/* we create rule sets */
+/* A rule set has a selector, i.e. div */
+/* Then it has Declaration Block, {
+  
+}*/
+/* The Declaration Block has Declarations, i.e. width, height, border, border radius, background-image, back-ground size, background-repeat, display */
+/* Each Declaration has properties and values */
+*{
+  border: 2px dashed red;
+  
+}
+
+body{
+  font-size: 36px;
+  text-align: center;
+  border: 10px groove green;
+}
+
+
+div{
+  width:100px;
+  height: 100px;
+  background-color: aqua;
+  display: inline-block;
+}
+
+div:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+}
+a:focus{
+  color: red;
+}
+
+input:focus{
+  border: 2px solid green;
+} 
+
+p::first-letter{
+  font-family: cursive;
+  font-size: 36px;
+  line-height:.5;
+}
+p::first-line{
+  color:turquoise;
+  font-family: cursive;
+  font-weight: 300;
+  line-height:.5;
+}

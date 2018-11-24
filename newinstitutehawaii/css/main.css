@@ -6,34 +6,33 @@
 }*/
 /* The Declaration Block has Declarations, i.e. width, height, border, border radius, background-image, back-ground size, background-repeat, display */
 /* Each Declaration has properties and values */
+html{
+  background-color: dodgerblue;
+} 
 
-div {
-  width: 200px; 
-  height: 200px;
-  border: 1px solid red;
+body{
+  width: 60%;
+  margin: 0 auto;
+  background-color: lawngreen;
+  border: 5px solid black;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
   border-radius: 100%;
-  background-image: url("../img/NI\ Logo.png\ -\ Shortcut.lnk"); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: inline-block; 
+  border: 10px ridge gold;
 }
 
-img {
-  width: 200px;
-  box-sizing: border-box;
-  border: 20px dotted violet;
-  padding: 20px;
- 
+#primary{
+  color: deeppink;
 }
 
-.onelogo{
-  border: 10px dashed orangered;
-
- 
+#secondary{
+  color: red;
 }
 
-.twologo{
-  border: 10px double orangered;
-
- 
+[target]{
+  border: 1px solid red;
 }
+
