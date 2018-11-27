@@ -1,7 +1,27 @@
-h1{
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2rem;
-  font-weight: normal;
-  font-variant: small-caps;
-  text-transform: lowercase;
+*{
+  border: 1px dashed hotpink;
+}
+div{
+  width: 50px;
+  height: 50px;
+  background-color: aquamarine;
+  border: 1px yellowgreen;
+  flex-grow: 1;
+}
+
+nav{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 1px dashed red;
+  flex-grow: 1;
+}
+
+header{
+  display: flex;
+  border: 1px dashed black;;
+  justify-content: flex-start;
+  flex-direction: row;
+  
+
 }
