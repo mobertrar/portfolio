@@ -6,6 +6,7 @@
 }*/
 /* The Declaration Block has Declarations, i.e. width, height, border, border radius, background-image, back-ground size, background-repeat, display */
 /* Each Declaration has properties and values */
+
 html{
   background-color: dodgerblue;
 } 
@@ -19,13 +20,14 @@ body{
 
 img{
   display: block;
+  width:26rem;
   margin: 0 auto;
   border-radius: 100%;
   border: 10px ridge gold;
 }
 
-#primary{
-  color: deeppink;
+h1{
+  font-size: 32px;
 }
 
 #secondary{
