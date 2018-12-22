@@ -8,33 +8,18 @@
 /* Each Declaration has properties and values */
 
 html{
-  background-color: dodgerblue;
+  color: whitesmoke;
 } 
 
 body{
-  width: 60%;
-  margin: 0 auto;
-  background-color: lawngreen;
-  border: 5px solid black;
+  /* formatting */
+  /* border: 5px solid hotpink; */
+}
+header{
+  border: 2px solid turquoise;
 }
 
-img{
-  display: block;
-  width:26rem;
-  margin: 0 auto;
-  border-radius: 100%;
-  border: 10px ridge gold;
-}
 
-h1{
-  font-size: 32px;
-}
 
-#secondary{
-  color: red;
-}
 
-[target]{
-  border: 1px solid red;
-}
 

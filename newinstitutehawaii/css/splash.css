@@ -1,13 +1,37 @@
-/* First Section ID */
-#idx-atf{
- /* layout */
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  widows: 100%;
+  height:2.8rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div, header nav{
+  width: 300px;
+  height: 2rem;
+  border-radius: 10%;
+  margin: 0 2rem;
+  align-items: center;
+  display: flex;
+}
+
+h1{
+  font-size: 2rem;
+  text-align: center;
+}
+
+#nih-atf{
+  /* layout */
  height: 100vh;
  display: flex;
  justify-content: center;
  align-items: center;
  /* background image */
 background-color: darkgray;
-background-image: url("../img/background-photo-mobile-devices.jpg");
+background-image: url("../img/Hawaii 1.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -17,17 +41,8 @@ background-attachment: fixed;
 /* border: 10px solid hotpink; */
 }
 
-/* First Child class div bneath the First section ID */
-#idx-atf > div {
-  height: 85vh;
-}
-
-.idx-center-spacebetween{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
+#idx-atf > div{
+  height: 90vh;
 }
 
 .idx-center-center{
@@ -36,5 +51,3 @@ background-attachment: fixed;
   justify-content: center;
   align-items: center;
 }
-
-
