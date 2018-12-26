@@ -1,32 +1,24 @@
-header{
-  position: fixed;
-  top:0;
-  left:0;
-  widows: 100%;
-  height:2.8rem;
+div h1{
   display:flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 4.3rem;
+  color: rgb(251, 244, 215);
+  position: absolute;
+  margin: 0 auto;
+  top:215px;
+  right: 50px;
+  left:50px;
+  widows: 100%;
+  height:5rem;
+  width: 50rem;
+  /* formatting */
+  /* border: 2px solid greenyellow; */
+   
 }
 
-header div, header nav{
-  width: 300px;
-  height: 2rem;
-  border-radius: 10%;
-  margin: 0 2rem;
-  align-items: center;
-  display: flex;
-}
-
-h1{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-size: 2rem;
-  text-align: center;
-  border: 2px solid greenyellow;
-}
 
 #nih-atf{
   /* layout */
@@ -34,13 +26,11 @@ h1{
  display: flex;
  justify-content: center;
  align-items: center;
- /* background image */
 background-color: darkgray;
 background-image: url(../img/bk1-full-desktop.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-/* background-origin: border-box; */
 background-attachment: fixed; 
 /* formatting */
 /* border: 10px solid hotpink; */
@@ -54,6 +44,6 @@ section img{
   box-sizing: border-box;
   border-radius: 15%;
   /* formatting */
-  /* border: 5px dashed turquoise; */
+  /* border: 5px dashed turquoise;  */
 }
 

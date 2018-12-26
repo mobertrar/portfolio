@@ -7,19 +7,7 @@
 /* The Declaration Block has Declarations, i.e. width, height, border, border radius, background-image, back-ground size, background-repeat, display */
 /* Each Declaration has properties and values */
 
-html{
-  color: whitesmoke;
-} 
 
-body{
-  /* formatting */
-  /* border: 5px solid hotpink; */
-}
-header{
-  display: flex;
-  justify-content: center;
-  border: 2px solid turquoise;
-}
 
 
 
