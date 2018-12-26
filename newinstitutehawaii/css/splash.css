@@ -19,8 +19,13 @@ header div, header nav{
 }
 
 h1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
   font-size: 2rem;
   text-align: center;
+  border: 2px solid greenyellow;
 }
 
 #nih-atf{
@@ -31,7 +36,7 @@ h1{
  align-items: center;
  /* background image */
 background-color: darkgray;
-background-image: url("../img/Hawaii 1.jpg");
+background-image: url(../img/bk1-full-desktop.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -41,13 +46,14 @@ background-attachment: fixed;
 /* border: 10px solid hotpink; */
 }
 
-#idx-atf > div{
-  height: 90vh;
+section img{
+  /* height: 5rem;
+  width: 5rem; */
+  padding: 2rem;
+  margin: 5vh;
+  box-sizing: border-box;
+  border-radius: 15%;
+  /* formatting */
+  /* border: 5px dashed turquoise; */
 }
 
-.idx-center-center{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
