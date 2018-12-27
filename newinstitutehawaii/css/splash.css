@@ -5,7 +5,7 @@ div h1{
   flex-direction: column;
   font-family: 'Poppins' , sans-serif;
   font-size: 4.3rem;
-  color: rgb(251, 244, 215);
+  color: rgb(238, 237, 190);
   position: absolute;
   margin: 0 auto;
   top:215px;
@@ -26,7 +26,6 @@ div h1{
  display: flex;
  justify-content: center;
  align-items: center;
-background-color: darkgray;
 background-image: url(../img/bk1-full-desktop.jpg);
 background-repeat: no-repeat;
 background-position: center;
@@ -34,6 +33,10 @@ background-size: cover;
 background-attachment: fixed; 
 /* formatting */
 /* border: 10px solid hotpink; */
+}
+
+section div h1:hover{
+  color: rgba(230, 238, 237, 0.8);
 }
 
 section img{

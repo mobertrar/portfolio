@@ -1,0 +1,30 @@
+/* html{head{meta, title,link}body{svg, header{div, nav},section*6,footer}} */
+/* head{meta,title,link} */
+/* body{svg, header{div, nav} */
+/* svg{ } */
+/* header{div, nav} */
+/* section{article{svg, div, section}, article{svg, div, section}} */
+/* footer{div, nav} */
+
+#nih-center{
+  /* layout */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background image */
+ background-image: url("../img/beach2.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ /* background-origin: border-box; */
+ background-attachment: fixed; 
+ /* formatting */
+ /* border: 10px solid tomato; */
+
+}
+
+#nih-center > div{
+  height: 85vh;
+
+}

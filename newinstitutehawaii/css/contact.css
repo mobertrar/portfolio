@@ -1,0 +1,31 @@
+/* html{head{meta, title,link}body{svg, header{div, nav},section*6,footer}} */
+/* head{meta,title,link} */
+/* body{svg, header{div, nav} */
+/* svg{ } */
+/* header{div, nav} */
+/* section{article{svg, div, section}, article{svg, div, section}} */
+/* footer{div, nav} */
+#nih-contact{
+  /* layout */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background image */
+  background-color:rgba(242,255,225,0.5); 
+  border: 5 solid rgba(126, 128, 125, 0.5); 
+  background-image: url("../img/bk2-full-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-origin: border-box; */
+  background-attachment: fixed; 
+  /* formatting */
+  /* border: 6px groove rgba(186,243,103,0.6); */
+
+}
+
+#nih-contact > article{
+  height: 85vh;
+
+}

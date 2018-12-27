@@ -1,6 +1,10 @@
-html{
-  /* color: burlywood; */
-}
+/* html{head{meta, title,link}body{svg, header{div, nav},section*6,footer}} */
+/* head{meta,title,link} */
+/* body{svg, header{div, nav} */
+/* svg{ } */
+/* header{div, nav} */
+/* section{article{svg, div, section}, article{svg, div, section}} */
+/* footer{div, nav} */
 
   header{
     font-family: 'Asap', sans-serif;
@@ -16,7 +20,7 @@ html{
     justify-content: space-between;
     align-content: baseline;
     align-items: center;
-    background-color: rgba(28,25,19,0.5);
+    background-color: rgba(66, 62, 52, 0.3);
     /* border: 4px groove blue; */
   }
 
@@ -55,7 +59,7 @@ html{
   }
 
   header div a:hover{
-    color: rgba(184,242,233,0.8);
+    color: rgba(181, 253, 244, 0.925);
   }
 
   header div img {
@@ -104,11 +108,11 @@ html{
    
 
   header nav a:hover{
-    color: rgba(223, 238, 236, 0.8);
+    color: rgba(210, 250, 244, 0.925);
   }
 
   header nav h1:hover{
-    color: rgba(230, 238, 237, 0.8);
+    color: rgba(155, 253, 212, 0.925);
   }
 
   #get-started{
@@ -116,30 +120,31 @@ html{
     color: rgba(223, 240, 237, 0.3);
     border: 4px solid rgba(184,242,233,0.2);
     border-radius: 22.6px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 
-  #nih-atf{
+  #nih-about{
       /* layout */
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
       /* background image */
-     background-color: darkgray;
      background-image: url("../img/nih-dsk-bk3.jpg");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
      /* background-origin: border-box; */
-     background-attachment: scroll; 
+     background-attachment: fixed; 
      /* formatting */
      /* border: 10px solid tomato; */
   }
    
-  #nih-atf > div{
+  #nih-about > div{
     height: 85vh;
   }
+
   
-  .nih-center-spacebetween{
-   
-  }
