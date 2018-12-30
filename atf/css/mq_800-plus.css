@@ -1,0 +1,65 @@
+header nav, header nav a, header svg {
+  display: flex;
+  }
+
+header{
+  justify-content: space-between;
+}
+
+header div, header nav{
+  width: 300px;
+  margin: 0 1rem;
+  /* border: 1px solid hotpink; */
+}
+
+header div a{
+  /* border: 1px solid greenyellow; */
+  justify-content: flex-start;
+}
+
+
+header nav{
+  justify-content: space-between;
+  }
+  
+  header nav a{
+    padding: 0 1rem;
+  }
+  
+  header nav a:hover{
+    border-radius: 5px;
+    background-color: darkgrey;
+  }
+
+  .idx-hdr-svg{
+    width: 30px;
+    /* height: 100%; */
+    fill: currentColor;
+    /* FOR DEBUGGING ONLY */
+    /* border: 1px solid darkturquoise; */
+  }
+
+
+#idx-atf{
+  background-image: url("../img/background-photo.jpg");
+}
+
+
+
+#idx-atf > div {
+  /* display: flex; */
+  height: 45vh;
+}
+
+.idx-center-spacebetween{
+  margin-top: 0;
+}
+
+#idx-atf h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+#idx-atf h3{
+  margin-top: .4rem;
+}

@@ -1,0 +1,219 @@
+/* DESKTOP */
+header nav, header nav a, header svg{
+  display: flex;
+  padding: 10px;
+  margin: 0 .5rem;
+  /* border: 2px dashed greenyellow; */
+}
+
+header{
+  justify-content: space-between;
+  height: 2.8rem;
+  /* border: 2px solid hotpink; */
+
+}
+
+header div{
+  width:500px;
+  height: 75%;
+  margin:0 1rem;
+  /* border: 2px dashed gold; */
+}
+
+header nav{
+  width:100%;
+  height: 100%;
+  justify-content: flex-end;
+  /* border: 2px solid hotpink; */
+}
+header nav a{
+  width:150px;
+  border-radius: 0px;
+  /* border: 2px solid gold; */
+}
+
+header div a{
+  justify-content: center;
+  margin: 1 1rem;
+  padding: 5px;
+  /* border: 2px dashed salmon; */
+}
+
+header div a h1{
+  font-size:1.5rem;
+}
+
+header nav a:hover {
+  color:  aquamarine;
+  background: rgba(60, 73, 69, 0.6);
+  border:.8px solid rgba(164, 255, 247, 0.932);
+  
+}
+
+
+#nih-atf{
+  background-image: url("../img/1_about_desktop.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#nih-atf>div{
+  height: 90vh;
+}
+
+.nih-center-spacebetween{
+  padding:10px;
+  margin:0 auto;;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* border: 2px dashed greenyellow; */
+}
+
+
+#nih-atf h1{
+    /* padding:10px; */
+    /* margin: 0 auto; */
+    /* text-shadow: 2px solid rgba(164, 255, 247, 0.932); */
+    border-radius: 20px;
+    color: rgba(248, 255, 235, 0.76);
+    /* background-color: rgba(134, 133, 133, 0.2); */
+     font-size:9rem;
+     text-align: center;
+     /* text-decoration: underline rgb(248, 255, 235); */
+     font-family: 'Staatliches', cursive;
+
+ }
+
+ .nih-spacearound{
+  margin:40px;
+  width:40%;
+  height: 100px;
+  padding: 20px;
+  border:3px dashed purple;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+}
+section article div{
+  border:2px solid orange;
+  padding:20px;
+  /* right:20px; */
+}
+
+ .course-events button{
+  color: rgba(241, 237, 226);
+  padding: 10px;
+  /* border: 1px solid rgba(164, 255, 247, 0.932); */
+  /* border-radius: 17px; */
+  /* background-color: rgba(182, 182, 182, 0.2); */
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+
+/* .courses-container .event-container{ */
+  /* display:inherit; */
+/* } */
+.section-container{
+  border:2px dashed magenta;
+  width:40%;
+  height:50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+.course-container {
+  border:2px solid hotpink;
+  box-sizing: border-box;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-left:120px; */
+  
+}
+
+.event-container{
+  border:2px solid aqua;
+  box-sizing: border-box;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.course-item{
+  border: 4px groove purple;
+  width:80%;
+  /* height:50%; */
+  display: flex;
+  flex-direction: column;
+  
+}
+article div section h3{
+  border:4px solid gold;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+}
+
+
+#test-displaynone{
+  display: inherit;
+}
+footer nav, footer nav a, footer svg{
+  display: flex;
+  padding: 10px;
+  margin: 0 .5rem;
+  /* border: 2px dashed greenyellow; */
+  flex-direction: row;
+  align-content: center;
+}
+
+footer{
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 2.5rem;
+  /* border: 2px solid hotpink; */
+
+}
+
+footer nav{
+  width:100%;
+  height: 100%;
+  justify-content: space-around;
+  align-content: center;
+  /* border: 2px solid green; */
+}
+
+footer nav a{
+  width:100%;
+  /* border-radius: 5px; */
+  /* border: 2px dashed yellow; */
+}
+
+footer nav a:hover{
+  color:  aquamarine;
+  background: rgba(60, 73, 69, 0.6);
+  border:.8px solid rgba(164, 255, 247, 0.932);
+}
+
+footer nav a h1{
+  font-size: 1rem;
+}
+

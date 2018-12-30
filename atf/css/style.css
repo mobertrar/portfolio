@@ -1,0 +1,40 @@
+/* First Section ID */
+#idx-atf{
+ /* layout */
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background image */
+background-color: darkgray;
+background-image: url("../img/background-photo-mobile-devices.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+/* background-origin: border-box; */
+background-attachment: fixed; 
+/* formatting */
+/* border: 10px solid hotpink; */
+}
+
+/* First Child class div bneath the First section ID */
+#idx-atf > div {
+  height: 85vh;
+}
+
+.idx-center-spacebetween{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.idx-center-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
