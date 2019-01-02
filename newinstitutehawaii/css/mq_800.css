@@ -1,0 +1,35 @@
+/* DESKTOP */
+body{
+  /* margin-top:2.5rem; */
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  border:3px solid #34ef;
+  background: linear-gradient(to bottom, #cef9fa, #e1f3ed, #f1eadf);
+  color: #292727;
+ 
+}
+
+section{
+border:3px dashed greenyellow;
+}
+
+.container
+{
+border:2px solid salmon;
+height: 100vh;
+display:grid;
+grid-template-columns: 50%;
+grid-template-rows: 50% 50% 50% 50% 50% 50% 50% 50%;
+grid-template-areas: 
+"header header"
+"getst getst"
+"about about"
+"train train"
+"event event"
+"cont cont"
+"reso reso"
+"foot foot"
+}

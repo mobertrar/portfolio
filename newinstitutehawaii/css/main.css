@@ -1,15 +1,121 @@
-/* css is where we do our formating */
-/* we create rule sets */
-/* A rule set has a selector, i.e. div */
-/* Then it has Declaration Block, {
-  
-}*/
-/* The Declaration Block has Declarations, i.e. width, height, border, border radius, background-image, back-ground size, background-repeat, display */
-/* Each Declaration has properties and values */
+/* MOBILE */
+html{
+  font-family: 'Cantarell', sans-serif;
+  /* border:3px solid #34ef; */
+  /* color: whitesmoke; */
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* border:3px solid #34ef; */
+    background: linear-gradient(to bottom, #cef9fa, #e1f3ed, #f1eadf);
+    color: #292727;
+   
+}
+
+section{
+  border:3px dashed greenyellow;
+}
+
+.container
+{
+  border:2px solid salmon;
+  height: 100vh;
+  display:grid;
+  grid-row-gap: 5px;
+  grid-template-columns: [first]1fr [line2]1fr [line3]1fr [line4]1fr [line5]1fr [lastline]1fr;
+  grid-template-rows: [start-row]1fr [row1-end]1fr [third-line]1fr [fourth-line]1fr [fifth-line]1fr [last-row]1fr;
+  grid-template-areas: 
+  "header header header header header header"
+  "getst getst getst getst getst getst"
+  "about about about about about about"
+  "train train train train train train"
+  "event event event event event event"
+  "cont cont cont cont cont cont"
+  "reso reso reso reso reso reso"
+  "foot foot foot foot foot foot"
+}
 
 
+.box{
+  background-color: #444;
+  border-radius:3px;
+  font-size:150%;
+}
 
+.a{
+  grid-area: header;
+  background: linear-gradient(to top,   #c9fdc9ce, #f0e6d7be, #ffffff);
+   /* border:.6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
+}
 
+.b{
+  grid-area: getst;
+  background: linear-gradient(to top,   #d4dada6e, #f0e6d7be, #ffffff);
+   /* border:.6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.c{
+  grid-area: about;
+  background: linear-gradient(to top,   #dfebeb3a, #f0e6d7be, #ffffff);
+   /* border:.6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.d{
+  grid-area:train;
+  background: linear-gradient(to top,   #bdc2c29d, #f0e6d7be, #ffffff);
+   /* border: .6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.e{
+  grid-area:event;
+  background: linear-gradient(to top,   #bdc2c29d, #f0e6d7be, #ffffff);
+   /* border: .6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.f{
+  grid-area:cont;
+  background: linear-gradient(to top,   #bdc2c29d, #f0e6d7be, #ffffff);
+   /* border: .6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.g{
+  grid-area:reso;
+  background: linear-gradient(to top,   #bdc2c29d, #f0e6d7be, #ffffff);
+   /* border: .6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.h{
+  grid-area:foot;
+  background: linear-gradient(to top,   #bdc2c29d, #f0e6d7be, #ffffff);
+   /* border: .6px solid  #8f94946e; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 
