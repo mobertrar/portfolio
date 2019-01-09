@@ -89,9 +89,10 @@ img{
 /* Navigation */
 .main-nav{
   display: none;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
 .main-nav ul{
   display: grid;
   grid-gap:20px;
@@ -139,7 +140,7 @@ img{
   grid-area: showcase;
   min-height: 500px;
   background: url(../img/showcase_1.jpg);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: center;
   padding:1rem;
@@ -833,25 +834,34 @@ color:white;
 @media(max-width: 500px)
 {
 
+  body{
+    margin: 2px auto;
+  }
+
   .wrapper{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
 
-.main-nav{
+  .main-nav{
     /* display:none; */
     grid-template-columns: 1fr;
   }
-.nilogo{
+
+  .toggle{
+  display:block;
+  }
+
+  .nilogo{
       display:none;
   }
 
-.main-nav ul{
+  .main-nav ul{
     /* display: none; */
       grid-template-columns: 1fr;
   }
 
-.showcase{
+  .showcase{
     /* border:3px solid rgba(104, 44, 44, 0.144); */
     /* border-radius: 5px; */
       grid-template-columns: 1fr;
@@ -859,12 +869,12 @@ color:white;
       'showcase';
   }
 
-.showcase  h1{
+  .showcase  h1{
     font-size: 3rem;
     text-align: center;
   }
 
-.showcase p{
+  .showcase p{
     font-size:1.2rem;
   }
 
@@ -879,6 +889,12 @@ color:white;
 .festival{
   grid-template-columns: 1fr;
 }
+
+.we_partner p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 }
 
 .cor-container{
@@ -888,9 +904,6 @@ color:white;
   /* font-size:2rem; */
 }
 
-/* .festival h2{
- font-size:1rem;
-} */
 .fv-container{
   /* grid-template-rows: 1fr; */
   grid-template-columns: 1fr;
@@ -899,9 +912,6 @@ color:white;
   'intro-vid';
 }
 
-.fvcontainer h2{
-  /* font-size:1rem; */
-}
 
 .intro-vid img{
   width: 300px;
@@ -918,11 +928,6 @@ color:white;
     /* font-size: 2.5rem; */
   }
 
-.we_partner p{
-    text-align: center;
-    /* font-size: 1.2rem; */
-  }
-  
 
  /* Partners Photo */
 .part_photo{
