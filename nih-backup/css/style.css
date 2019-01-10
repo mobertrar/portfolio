@@ -744,17 +744,10 @@ justify-content: center;
    }
 
 .deb-eve-num-two h1{
-font-size:2.5rem;
+font-size:2.6rem;
 color:rgba(240, 253, 123, 0.938);
-letter-spacing: 10px;
-}
-
-.deb-eve-num-two h1::first-letter{
-  font-size:6rem;
-  color:rgb(240, 253, 123);
-  font-weight: bold;
-  }
- 
+font-weight: bold;
+   }
 
 .deb-eve-num-two h2{
   font-size:2rem;
@@ -767,18 +760,7 @@ letter-spacing: 10px;
 .deb-eve-num-two h3{
   font-size:2rem;
   color:rgba(240, 253, 123, 0.938);
-  letter-spacing: 5px;
-
   }
-
-  /* .deb-eve-num-two h3::first-letter{
-    font-size:3rem;
-    font-weight: bold;
-    color:rgba(248, 255, 183, 0.938);
-    text-decoration: none;
-    
-  
-    } */
 
 
 
