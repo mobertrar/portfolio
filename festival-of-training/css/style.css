@@ -219,26 +219,18 @@ label{
 }
 
 .showcase p{
-  font-size:2rem;
-  padding-bottom:80px;
+  font-size:4rem;
+  font-weight:bold;
+  padding-bottom:10px;
   /* border:2px solid hotpink; */
-  margin-top:0;
+  margin: 0px 140px 50px 140px;
    color: rgba(250, 249, 218, 0.979);
   text-align:center;
   font-family: 'Montserrat', sans-serif;
   
 }
 
-.mission{
-  font-size:2rem;
-  /* padding-bottom:80px; */
-  border:2px solid hotpink;
-  margin-top:0;
-   color: rgba(250, 249, 218, 0.979);
-  text-align:center;
-  font-family: 'Montserrat', sans-serif;
-  
-}
+
 
 /* Div with header */
 .header-top h1{
