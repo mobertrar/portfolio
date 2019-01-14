@@ -1,4 +1,11 @@
-html{
+:root{
+  --primary:#ddd;
+  --dark:rgba(51, 51, 51, 0.507);
+  --light:#fff;
+  --shadow: 0 1px 5px rgba(48, 45, 45, 0.945);
+}
+
+ html{
   box-sizing: border-box;
   font-family: 'Staatliches', cursive;
   margin: 0px;
@@ -47,9 +54,16 @@ align-items: flex-start;
 
 .header{
   grid-area: header;
-  color: rgba(242, 255, 172, 0.719);
+  color: rgba(248, 255, 209, 0.897);
 }
 
+.leinst{
+box-shadow: var(--shadow);
+}
+
+.nhinst{
+  box-shadow: var(--shadow);
+  }
 
 
 .logo 

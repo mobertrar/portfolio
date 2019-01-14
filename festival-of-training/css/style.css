@@ -12,7 +12,7 @@ html{
 }
 
 body{
-  background: linear-gradient(-85deg, rgba(253, 245, 253, 0.787), rgba(236, 255, 255, 0.808), rgba(255, 253, 232, 0.822), rgba(230, 255, 242, 0.924));
+  background: linear-gradient(-85deg, rgba(255, 219, 255, 0.787), rgba(221, 250, 250, 0.808), rgba(253, 250, 210, 0.822), rgba(211, 252, 231, 0.924));
   background-size: 400% 400%;
   background-attachment: fixed;
   margin: 50px 50px 50px 50px;;
@@ -131,6 +131,7 @@ img{
   padding:0;
   list-style:none;
   grid-template-columns: .5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .main-nav a{
@@ -139,27 +140,32 @@ img{
   display: flex;
   justify-content: center;
   text-decoration: none;
-  /* padding: 0.2rem; */
+  padding: 0.2rem;
   text-align: center;
   color: rgba(34, 15, 15, 0.856);
   /* text-transform: uppercase; */
-  font-size: 1.2rem;
-  box-shadow:var(--shadow);
-  border-radius: .7rem;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  /* box-shadow:var(--shadow); */
+  /* border-radius: .7rem; */
   /* border-top-left-radius: .2rem; */
   letter-spacing: .5px;
-  border:.2px solid #a6f39ca4;
-  border-bottom:2px solid rgba(245, 245, 189, 0.904);
+  /* border:5px solid #a6f39ca4; */
+  /* border-bottom:2px solid rgba(245, 245, 189, 0.904); */
 
 }
 
 .main-nav a:hover{
   color: rgba(115, 206, 218, 0.966);
   border-bottom:2px solid rgba(196, 242, 245, 0.966);
-  border:.2px solid rgba(113, 243, 255, 0.753);
+  /* border:.2px solid rgba(113, 243, 255, 0.753); */
   letter-spacing: .5px;
   border-radius: .7rem;
   text-decoration: none;
+}
+
+.nilogo{
+  box-shadow: var(--shadow);
 }
 
 label{
@@ -213,10 +219,24 @@ label{
 }
 
 .showcase p{
-  font-size:1.7rem;
+  font-size:2rem;
+  padding-bottom:80px;
+  /* border:2px solid hotpink; */
   margin-top:0;
    color: rgba(250, 249, 218, 0.979);
   text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.mission{
+  font-size:2rem;
+  /* padding-bottom:80px; */
+  border:2px solid hotpink;
+  margin-top:0;
+   color: rgba(250, 249, 218, 0.979);
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -868,7 +888,7 @@ padding:20px;
   font-size:1.8rem;
   padding:20px;
   color: rgba(39, 122, 22, 0.938);
-  border:1px solid rgb(251, 226, 234);
+  border:1px solid rgba(226, 247, 251, 0.911);
   border-radius: 3rem;
 border-top-right-radius: .2rem;
 }
@@ -1043,7 +1063,11 @@ color:white;
   }
 
 .nilogo{
-  display:none;
+  display:block;
+  width:100px;
+  height:100px;
+  margin-left:410px;
+  margin-bottom: 40px;
 }
 .top-container{
     grid-template-columns: 1fr;
@@ -1214,7 +1238,11 @@ color:white;
   }
 
   .nilogo{
-      display:none;
+      display:inline-block;
+      width:125px;
+      height:125px;
+      margin-left:420px;
+      margin-bottom: 40px;
   }
 
   .main-nav ul{
