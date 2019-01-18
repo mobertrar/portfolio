@@ -8,13 +8,29 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
    
   
     <title>New Institute Hawaii</title>
 </head>
 <body>
 
-<!-- Landing Section Begins -->
+<script>
+
+    document.getElementById('main').addEventListener('click', closeNav);
+
+    function openNav(){
+        document.getElementById("mySidenav").style.width="230px";
+        document.getElementById("main");
+    }
+
+    function closeNav(){
+        document.getElementById("mySidenav").style.width="0";
+        document.getElementById("main").style.marginRight="0";
+    }
+</script>
+
+
 <section class="background-image">
 <!-- Navigation -->
 <header id="header">
@@ -22,24 +38,39 @@
        
         <div id="headerLogo-container">
             <a href="#">
-               <img height="70px" id="toplogo" class="headerLogo" src="img/logo-update.jpg" alt=""> 
+               <img height="70px" id="toplogo" class="headerLogo" src="img/Silver-logo1.jpg" alt=""> 
             </a>
         </div> 
-
-        <input type="checkbox" id="hamburger-checkbox"> 
-
-        <label for="hamburger-checkbox" class="hamburger">
-            <div class="hamburger-item"></div>
-            <div class="hamburger-item"></div>
-            <div class="hamburger-item"></div>
-        </label>
-
     
+        <div onclick="openNav()" class="open-icon">
+            <div class="hamburger-item"></div>
+            <div class="hamburger-item"></div>
+            <div class="hamburger-item"></div>
+        </div>
+     
+        
+   
+  
 
-        <sec class="sidebar">
+        <section id="mySidenav" class="sidebar">
+
+              
 
         <ul id="navbar-container">
-            <a href="#">
+
+            <a href="javascript:void(0)">
+                    
+                       <span id="space-2"></span>
+                            <div class="closebtn" onclick="closeNav()">    
+                            </div>
+                            
+                            
+                    
+            
+            
+            </a>
+            
+            <a href="#about">
                 <li>
                        
                         <i id="navicon" class="fas fa-archway">    
@@ -49,7 +80,7 @@
                         
                 </li>
             </a>
-            <a href="#">
+            <a href="#course">
                 <li>
                       <i id="navicon" class="fas fa-chalkboard-teacher"></i>
 
@@ -86,20 +117,18 @@
                      Donate
                 </li>
                 </a>
-        </ul>
-
-       
-      
+        </ul> 
+        </section>
     </nav>
 </header>
 
-<!-- Landing Container -->
+<!-- Landing Container Begins -->
 <section class="landing-grid">
 
     <div id="nih-center">
-        <h1>"You owe it to your philosophy to learn how to win"</h1>
+        <h1>New Institute Hawaii</h1>
         <!-- &nbsp; -->
-        <h2> - Morton C. Blackwell</h2>
+        <h2> Providing Leadership Training for Future Leaders</h2>
     </div>
  
 
@@ -120,42 +149,109 @@
 
     <article id="icon-container3">
         <a href="#" class="landing-button">
-              <i class="fas fa-briefcase fa-4x"></i>
-            <h3>Advance Your Career</h3>
+                <i class="far fa-calendar-alt fa-4x"></i>
+            <h3>Current Events</h3>
         </a> 
     </article>
 
     
 
 </section>  
-
-
-
-<!--Container Ends  -->
+<!-- Landing Container Ends  -->
 </section>
-<!-- About Section Container -->
+<!-- About Container Begins -->
+<a name="about"></a>
+<!-- About Seciton -->
 <section class="about-section">
     <article class="about-background-1">
-         <div id="image-endorsment"></div>
+         <div id="image-endorsment" title="Hawaii Pacific University Student Body President Elana Boise - Junior Consultant at New Institute Hawaii">
+             <div id="elana"> Elana Boise, New Institute Junior Leader</div>
+            </div>
+         
     <div id="bold-char">
         <h2 id="boldish">We Believe</h2>
-        <h2>In our Communities</h2>
+        <h3>in our communities on a global scale, we work to make the world a better place for future generations.</h3>
     </div>
     <div id="mission">
-    on a global scale, our work will make the world a better place for future generations.
+      <a href="#"> <button class="learnmore">Learn More</button></a> 
 </div>
 </article>
 
 
-    <article class="about-background-2"></article>
+    <article class="about-background-2">
+        <h1 id="abouth1">About New Institue</h1> <div class="space"></div>
+        <h2 id="abouth2">This is about the new institue Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magni beatae, tempora dolorum, mollitia culpa nisi doloribus blanditiis molestiae voluptatibus sed tempore qui reprehenderit ipsam aperiam ipsum, possimus saepe molestias? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est blanditiis tempore cumque deleniti dicta corporis quam optio quod eaque, placeat quaerat officiis itaque, quibusdam ad eveniet perferendis. Quod, magni odit.
+        </h2>
+        <div class="space"></div>
+        <h1 id="abouth1">About New Institue</h1> <div class="space"></div>
+        <h2 id="abouth2">This is about the new institue Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magni beatae, tempora dolorum, mollitia culpa nisi doloribus blanditiis molestiae voluptatibus sed tempore qui reprehenderit ipsam aperiam ipsum, possimus saepe molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam expedita praesentium, inventore, eius fugiat harum dolor cum recusandae nemo doloribus illum quibusdam minus consequatur odit unde officia, aperiam nostrum non.
+        </h2>
+        <div class="space"></div>
+        <h1 id="abouth1">About New Institue</h1> <div class="space"></div>
+        <h2 id="abouth2">This is about the new institue Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magni beatae, tempora dolorum, mollitia culpa nisi doloribus blanditiis molestiae voluptatibus sed tempore qui reprehenderit ipsam aperiam ipsum, possimus saepe molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam expedita praesentium, inventore, eius fugiat harum dolor cum recusandae nemo doloribus illum quibusdam minus consequatur odit unde officia, aperiam nostrum non.
+        </h2>
+
+    
 </section>
+
+<!-- Course Container -->
+<a name="course"></a>
+<section class="course-container">
+    <!-- Course Header -->
+    <article class="course-header">January 2019</article>
+<!-- Course Section -->
+
+
+    <div class="course" id="leadership-course">
+
+        <span class="date-of-course" id="ldr-letter">
+            4</span>
+
+        <aside class="location-course" id="online-course">
+            Online</aside>
+
+        <h1 class="course-title"></h1>
+
+    </div>
+
+    <div class="course" id="short-course">
+
+        <span class="date-of-course">
+            6</span>
+
+        <aside class="location-course" id="campus-course">
+
+            Nauru Tower</aside>
+
+    </div>
+
+    <div class="course" id="nih-course">
+
+            <span class="date-of-course" id="nih-letter">
+                25</span>
+
+            <aside class="location-course" id="hybrid-course">
+                Hybrid</aside>
+
+    </div>
+
+
+
+
+
+</section>
+
+
+    
 
 
 
 
 
 <!-- Footer -->
-   
+
+
+
 
 
 </body>
