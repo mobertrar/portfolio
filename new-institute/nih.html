@@ -14,6 +14,28 @@
     <title>New Institute Hawaii</title>
 </head>
 <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+        <script>
+        // <!-- When the user scrolls down 20px from the top of the document, show the button !-->
+        window.onscroll=function() {scrollFunction()};
+        
+        function scrollFunction(){
+            if(document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop>20) {
+                document.getElementById("myBtn").style.display="block";
+            } else{
+                document.getElementById("myBtn").style.display="none";
+            }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction(){
+            document.body.scrollTop=0;
+            document.documentElement.scrollTop=0;
+            document.documentElement.style.borderRadius="25px";
+        }
+        </script>    
+    
 
 <script>
 
@@ -136,7 +158,7 @@
     <article id="icon-container1">
         <a href="#" class="landing-button">
             <i class="fas fa-book-reader fa-4x"></i>
-            <h3>Courses on Campus</h3>
+            <h3>Courses</h3>
         </a>    
     </article>
 
@@ -196,53 +218,359 @@
 
 <!-- Course Container -->
 <a name="course"></a>
+<!-- Desktop Course Container -->
+<section class="desktop-course-container">
+<!-- Desktop Course Section -->
+
+
+<aside id="desktop-header-aside">
+<h1 class="desktop-course-header">Our Courses</h1></aside>
+
+<div id="dk-bx-cntr">
+    <a href="#">
+    <div class="courses-box" id="activism">
+        
+     
+        <span class="icon-box">
+                <i class="fas fa-bullhorn fa-4x"></i>
+        </span>
+
+        <h1 class="box-title" >Activism</h1>
+ 
+        
+    
+    
+    
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="courses-box" id="communication">
+
+            <span class="icon-box">
+                    <i class="fas fa-globe fa-4x"></i>
+                </span>
+        
+        <h1 class="box-title" >Communication</h1>
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="courses-box" id="fundraising">
+        
+            <span class="icon-box">
+                    <i class="fas fa-hand-holding-usd fa-4x"></i>
+                </span>
+        
+        <h1 class="box-title" >Fundraising</h1>
+    </div>
+</a>
+
+
+<a href="#">
+    <div class="courses-box" id="journalism">
+
+
+            <span class="icon-box">
+                    <i class="far fa-newspaper fa-4x"></i>
+                </span>
+        
+        <h1 class="box-title" >Journalism</h1>
+    </div>
+
+</a>
+
+<a href="#">
+    <div class="courses-box" id="servant-leadership">
+        
+            <span class="icon-box">
+                    <i class="fas fa-user-tie fa-4x"></i>
+                </span>
+        
+        <h1 class="box-title" >Servant Leadership</h1>
+    </div>
+
+</a>
+
+
+<a href="#">
+    <div class="courses-box" id="social-media">
+        
+            <span class="icon-box">
+                    <i class="fas fa-camera-retro fa-4x"></i>
+                </span>
+        
+        
+        <h1 class="box-title">Social Media</h1>
+    </div>
+</a>
+
+
+<a href="#">
+    <div class="courses-box" id="careers">
+        
+            <span class="icon-box">
+                    <i class="fas fa-briefcase fa-4x"></i>
+                </span>
+        
+        <h1 class="box-title" >Careers</h1>
+    
+    
+    
+    </div>
+</a>
+<a href="#">
+    <div class="courses-box" id="writing">
+        
+            <span class="icon-box">
+                    <i class="fas fa-pen-square fa-4x"></i>
+                </span> 
+        
+        <h1 class="box-title" >Writing</h1>
+    </div>
+</a>
+</div>
+
+</section>
+
+
 <section class="course-container">
     <!-- Course Header -->
-    <article class="course-header">January 2019</article>
-<!-- Course Section -->
+    <article class="course-header">February 2019</article>
+<!-- February Course Section -->
 
+<!-- Leadership Institute Course -->
+    <div class="course-grid" id="leadership-course">
 
-    <div class="course" id="leadership-course">
-
-        <span class="date-of-course" id="ldr-letter">
+        <span class="date-of-course" id="ldr-date">
             4</span>
 
         <aside class="location-course" id="online-course">
             Online</aside>
 
-        <h1 class="course-title"></h1>
+        <h1 class="course-title">Grassroots Thinking in Action</h1>
+
+        <span class="icons">
+
+            <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+
+             <a href="https://twitter.com/NewInstituteHI" id="twitter">
+             <i class="fab fa-twitter fa-lg"></i>
+             </a>
+
+             <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+             <i class="far fa-envelope fa-lg"></i>
+              </a>   
+         </span>
 
     </div>
+<!-- Short Courses -->
+    <div class="course-grid" id="short-course">
 
-    <div class="course" id="short-course">
-
-        <span class="date-of-course">
+        <span class="date-of-course" id="shrt-date">
             6</span>
 
         <aside class="location-course" id="campus-course">
 
             Nauru Tower</aside>
 
+            <h1 class="course-title">Communications</h1>
+            <span class="icons">
+
+                <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+    
+                 <a href="https://twitter.com/NewInstituteHI" id="twitter">
+                 <i class="fab fa-twitter fa-lg"></i>
+                 </a>
+    
+                 <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                 <i class="far fa-envelope fa-lg"></i>
+                  </a>   
+             </span>
+ 
+
     </div>
 
-    <div class="course" id="nih-course">
+    <div class="course-grid" id="short-course">
 
-            <span class="date-of-course" id="nih-letter">
+            <span class="date-of-course" id="shrt-date">
+                6</span>
+    
+            <aside class="location-course" id="campus-course">
+    
+                Nauru Tower</aside>
+
+                <h1 class="course-title">Fundraising</h1>
+                <span class="icons">
+
+                    <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+        
+                     <a href="https://twitter.com/NewInstituteHI" id="twitter">
+                     <i class="fab fa-twitter fa-lg"></i>
+                     </a>
+        
+                     <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                     <i class="far fa-envelope fa-lg"></i>
+                      </a>   
+                 </span>
+     
+    
+        </div>
+
+    <!-- New Institute Courses -->
+
+    <div class="course-grid" id="nih-course">
+
+            <span class="date-of-course" id="nih-date">
                 25</span>
 
             <aside class="location-course" id="hybrid-course">
                 Hybrid</aside>
 
+                <h1 class="course-title">Servent Leadership</h1>
+
+                <span class="icons">
+
+                    <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+        
+                     <a href="https://twitter.com/NewInstituteHI" id="twitter">
+                     <i class="fab fa-twitter fa-lg"></i>
+                     </a>
+        
+                     <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                     <i class="far fa-envelope fa-lg"></i>
+                      </a>   
+                 </span>
+     
+
     </div>
 
+         <!-- February Course Header -->
+    <article class="course-header">March 2019</article>
+    <!-- Course Section -->
 
+<!-- Leadership Institute Course -->
 
+    <div class="course-grid" id="leadership-course">
+
+            <span class="date-of-course" id="ldr-date">
+                4</span>
+    
+            <aside class="location-course" id="online-course">
+                Online</aside>
+    
+                <h1 class="course-title">Grassroots Thinking In Action</h1>
+
+                <span class="icons">
+
+                    <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+        
+                     <a href="https://twitter.com/NewInstituteHI" id="twitter">
+                     <i class="fab fa-twitter fa-lg"></i>
+                     </a>
+        
+                     <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                     <i class="far fa-envelope fa-lg"></i>
+                      </a>   
+                 </span>
+     
+    
+        </div>
+   <!-- Short Courses --> 
+        <div class="course-grid" id="short-course">
+    
+            <span class="date-of-course" id="shrt-date">
+                6</span>
+    
+            <aside class="location-course" id="campus-course">
+    
+                Nauru Tower</aside>
+
+                <h1 class="course-title">Communications</h1>
+
+                <span class="icons">
+
+                    <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+        
+                     <a href="https://twitter.com/NewInstituteHI" id="twitter">
+                     <i class="fab fa-twitter fa-lg"></i>
+                     </a>
+        
+                     <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                     <i class="far fa-envelope fa-lg"></i>
+                      </a>   
+                 </span>
+     
+    
+        </div>
+    <!-- New Institute Courses --> 
+        <div class="course-grid" id="nih-course">
+    
+                <span class="date-of-course" id="nih-date">
+                    25</span>
+    
+                <aside class="location-course" id="hybrid-course">
+                    Hybrid</aside>
+
+                    <h1 class="course-title">Servent Leadership</h1>
+
+                    <span class="icons">
+
+                        <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+            
+                         <a href="https://twitter.com/NewInstituteHI" id="twitter">
+                         <i class="fab fa-twitter fa-lg"></i>
+                         </a>
+            
+                         <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                         <i class="far fa-envelope fa-lg"></i>
+                          </a>   
+                     </span>
+         
+        </div>
+
+        <!-- Leadership Institute Course -->
+
+    <div class="course-grid" id="leadership-course">
+
+            <span class="date-of-course" id="ldr-date">
+                4</span>
+    
+            <aside class="location-course" id="online-course">
+                Online</aside>
+    
+                <h1 class="course-title">Grassroots Thinking in Action</h1>
+
+                <span class="icons">
+
+                    <a href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+        
+                     <a href="https://twitter.com/NewInstituteHI" id="twitter">
+                     <i class="fab fa-twitter fa-lg"></i>
+                     </a>
+        
+                     <a href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                     <i class="far fa-envelope fa-lg"></i>
+                      </a>   
+                 </span>
+    
+        </div>
 
 
 </section>
 
 
     
+
+
+
+
+
+
+
+
 
 
 
