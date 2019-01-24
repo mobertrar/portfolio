@@ -29,10 +29,6 @@ html{
   border-bottom:0px solid white;
   
 }
-
-
-
-
 .background-image{
   /* display: grid; */
   /* grid-gap:15px; */
@@ -67,12 +63,9 @@ grid-area: logo;
 margin:10px 0px 0px 30px;
 width:224px;
 }
-
-
 .sidebar{
   grid-area:nav;
 }
-
 ul a{
   /* border: 4px solid rgb(0, 255, 221); */
   /* width: 100%; */
@@ -86,7 +79,6 @@ ul a{
   color:rgb(255, 253, 236);
   
 }
-
 ul a:hover{
   /* border: 4px solid rgb(0, 255, 221); */
   /* width: 100%; */
@@ -100,10 +92,6 @@ ul a:hover{
  border-bottom:1px solid white;
  /* box-shadow: var(--shadow); */
 }
-
-
-
-
 #navbar-container{
 grid-area: nav;
 width:85%;
@@ -125,7 +113,6 @@ justify-content: flex-end;
 #space-bt{
   width:0px;
 }
-
 
 #navicon{
   display: none;
@@ -157,8 +144,6 @@ justify-content: flex-end;
   justify-content: center;
   align-items: flex-start;
 }
-
-
 
 .landing-button{
 /* border:4px groove rgb(200, 255, 0); */
@@ -209,6 +194,7 @@ height:70%;
   font-family: 'Thasadith', sans-serif;
   color:blanchedalmond;
   padding:50px;
+  font-variant: small-caps;
   
 }
 
@@ -218,6 +204,7 @@ height:70%;
   font-family: 'Thasadith', sans-serif;
   margin-left:50px;
   color:blanchedalmond;
+  font-variant: small-caps;
   /* border-bottom: 1px solid blanchedalmond; */
 }
 
@@ -549,19 +536,14 @@ border:2px solid blanchedalmond;
   background-color:rgba(42, 131, 119, 0.925);
   border:2px solid rgba(167, 165, 163, 0.89);
 }
-
 #social-media{
   background-color: rgba(207, 68, 17, 0.979);
   border:2px solid blanchedalmond;
 }
-
 #social-media:hover{
   background-color: rgba(223, 71, 16, 0.986);
   border:2px solid rgba(167, 165, 163, 0.89);
 }
-
-              
-
 #careers{
 background-color:rgba(37, 31, 83, 0.801);
 border:2px solid blanchedalmond;
@@ -572,7 +554,6 @@ border:2px solid blanchedalmond;
   border:2px solid rgba(167, 165, 163, 0.89);
 } 
 
-
 #writing{
 background-color:rgba(59, 39, 68, 0.945);
 border:2px solid blanchedalmond;
@@ -581,34 +562,12 @@ border:2px solid blanchedalmond;
 background-color:rgba(57, 27, 71, 0.945);
 border:2px solid rgb(112, 109, 104);
                           } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Calander Courses Container */
 
   .course-container{
     /* display: block; */
     margin-top:10px;
-    height: 200vh;
+    height: 130vh;
      background:rgba(255, 255, 255, 0.795);
     /* border:5px dashed rgb(238, 255, 0); */
     padding:20px;
@@ -618,7 +577,7 @@ border:2px solid rgb(112, 109, 104);
     font-family: 'Thasadith', sans-serif;
   }
   
-/* CalanderCourse Section */
+/* Calander Course Section */
   .course-header{
     /* display: block; */
     font-size:2.5rem;
@@ -627,6 +586,7 @@ border:2px solid rgb(112, 109, 104);
     border-bottom:.8px solid rgba(204, 204, 204, 0.432);
     color:rgba(0, 22, 82, 0.966);
     margin-bottom:15px;
+    margin-top:30px;
     justify-content: center;
     /* margin-top:10px; */
     
@@ -736,6 +696,13 @@ font-weight: bold;
   }
 
   /* Events Container */
+  .events-container{
+    /* display: block; */
+    height: 200vh;
+     background:rgba(255, 255, 255, 0.795);
+    /* border:5px dashed rgb(238, 255, 0); */
+  }
+
 
 
  /* Footer */ 
@@ -1167,11 +1134,6 @@ justify-content: flex-start;
     height: 84vh;
     
   }
-/* 
-  #nih-center{
-  width:100%;
-  height: 100%;
-  } */
 
   .landing-grid h1{
     font-size:2rem;
@@ -1224,7 +1186,7 @@ justify-content: flex-start;
     box-shadow: var(--shadow);
   }
 
-  /* about */
+  /* about section */
   .about-section{ 
     height: 160vh; 
     width:100%;
@@ -1384,6 +1346,7 @@ justify-content: flex-start;
     border-bottom:.8px solid rgba(204, 204, 204, 0.432);
     color:rgba(0, 22, 82, 0.966);
     margin-bottom:15px;
+    font-variant: small-caps;
     /* margin-top:10px; */
     
   }
@@ -1444,6 +1407,7 @@ font-weight: bold;
     font-size: 1.3rem;
     font-weight: bold;
     border-bottom:2px solid rgba(219, 219, 219, 0.452);
+    font-variant: small-caps;
   }
 
   .icons{
@@ -1470,7 +1434,425 @@ font-weight: bold;
     color:rgb(190, 0, 0);
   }
 
+  /* Events Container */
 
+  .events-container{
+    height: 400vh;
+    width:100%;
+     background:rgba(255, 255, 255, 0.795);
+    /* border:5px dashed rgb(238, 255, 0); */
+    display: grid;
+    background-color: rgb(255, 252, 248);
+
+  
+
+  }
+
+  .header-title{
+    width:100%;
+    height:40px;
+    /* border:4px groove rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 40px;
+    color:rgba(0, 22, 82, 0.966);
+    font-variant: small-caps;
+    padding-top:30px;
+  }
+
+  
+  .header-title h1{
+    border-bottom: 1px solid rgba(206, 206, 206, 0.685);
+  }
+
+  /* Event Wrapper for Public Speaking & Art of Persuasion*/
+  .events-wrapper-one{
+
+    width:100%;
+    height:99vh;
+    /* border:3px solid hotpink; */
+    padding:0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  
+  .event-nested{
+    width:100%;
+    box-shadow: var(--shadow);
+  
+  }
+
+ 
+
+  .nest-one{
+    /* border:4px inset greenyellow; */
+    height: 43%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    /* grid-template-rows: repeat(4, 1fr); */
+  }
+
+  #first-event-photo{
+  
+    border-left:2px solid rgb(176, 176, 255);
+    background-image: url("../img/sterling-higa-two.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-column: 1/3;
+    grid-row: 1/4;
+  }
+
+
+
+
+
+
+  #first-event-date{
+    font-family: 'Thasadith', sans-serif;
+    color: antiquewhite;
+    line-height: 55px;
+    /* border:2px solid hotpink; */
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:10px;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  z-index: 0;;
+
+  }
+
+  #first-event-speaker{
+    font-size: 1.5rem;
+    font-weight: 40px;
+    line-height: 30px;
+    /* font-weight: bol/d; */
+  }
+
+  #first-event-title{
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(248, 238, 234);
+    font-size: 1.8rem;
+    font-weight: 40px;
+    /* border:8px solid rgb(105, 255, 150); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:57px;
+/* line-height: 25px; */
+    text-align: center;
+   grid-column: 1/3;
+   grid-row:2/4;
+  }
+  
+  #first-event-guest-speaker{
+    font-family: 'Thasadith', sans-serif;
+    border-left:2px solid rgba(46, 86, 94, 0.719);
+    background-image: url("../img/daniel-hugo-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* flex-flow: column wrap; */
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:10px;
+    text-align: center;
+    grid-column: 3/5;
+    grid-row:1/3;
+  }
+
+  #first-event-description{
+    font-family: 'Thasadith', sans-serif;
+    color:rgb(19, 20, 22);
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    /* border:2px solid rgb(250, 1, 1); */
+    background-color:#fffdfdcb;
+    box-shadow: var(--shadow);
+    /* background-image: linear-gradient(to bottom left,rgb(231, 49, 43), rgba(255, 125, 125, 0.815)); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:10px 0px 10px 0px;
+    line-height: 17px;
+    text-align: center;
+    grid-column: 3/5;
+    grid-row: 3/4;
+  }
+
+
+  .nest-two{
+    /* border:4px dashed tomato; */
+    height: 43%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    background-color: rgb(237, 243, 241);
+    
+  }
+
+#second-event-photo{
+  border-right:2px solid rgba(203, 245, 234, 0.904);
+  background-image: url("../img/sterling-higa-one.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-column: 3/5;
+  grid-row: 1/4;
+  /* z-index: 0; */
+}
+
+#second-event-date{
+  border-left:5px inset rgba(201, 243, 234, 0.959);
+font-family: 'Thasadith', sans-serif;
+font-size: 2.5rem;
+font-weight: 500;
+grid-column:1/4;
+grid-row:1;
+padding:10px 10px 10px 5px;
+line-height: 40px;
+/* background-color: rgb(237, 243, 241); */
+z-index: ;
+}
+
+#second-event-speaker{
+
+  font-size: 1.2rem;
+}
+
+#second-event-title {
+  font-family: 'Thasadith', sans-serif;
+  background-color: rgb(237, 243, 241);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left:10px;
+  margin-right:10px;
+  font-size: 2.2rem;
+  padding:5px;
+  grid-column:1/3;
+  grid-row:2/4;
+  z-index: 0;
+}
+
+
+#second-event-guest-speaker{
+  border-right:2px solid rgb(193, 255, 208);
+  border-bottom:2px solid rgba(171, 241, 238, 0.87);
+  /* background-color: rgba(237, 243, 241, 0.527); */
+  box-shadow: var(--shadow);
+  margin-right:10px;
+  margin-left: 10px;
+  margin-bottom:10px;
+  grid-column: 1/3;
+  grid-row:2;
+  z-index: 0;
+}
+
+#second-event-description{
+  font-family: 'Thasadith', sans-serif;
+  border-left:2px solid rgba(183, 255, 201, 0.623);
+  /* background-color: rgba(206, 206, 206, 0.5); */
+ /* box-shadow: var(--shadow); */
+  /* align-content: flex-end; */
+  margin:0px 10px 0px 10px;
+  line-height: 18px;
+  grid-column: 1/3;
+  grid-row:3;
+  z-index: 0;
+}
+
+
+
+
+
+
+  /* Event Wrapper for Innovative Thinking and Innovative Foreign */
+  .events-wrapper-two{
+    width:100%;
+    height:99vh;
+    /* border:3px solid rgb(0, 26, 255); */
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+
+
+
+  .wrap-two-nest-one{
+    font-family: 'Thasadith', sans-serif;
+    line-height: 40px;
+   /* border:4px dashed rgb(35, 164, 250); */
+   height: 43%;
+   /* padding-top:20px; */
+  background-color: rgba(232, 242, 248, 0.979);
+
+  }
+
+  #third-event-date{
+    border-bottom:2px solid rgb(26, 118, 255);
+    background-color: rgba(1, 131, 252, 0.849);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-bottom:20px;
+    padding-top:10px;
+    
+  }
+  #third-event-photo{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    background-image:url("../img/Akina-test-one.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:5px;
+    margin-top:15px;
+    /* margin-top:50px; */
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+    line-height: 80px;
+    box-shadow: var(--shadow);
+
+}
+
+#third-event-title-one{
+  font-family: 'Thasadith', sans-serif;
+  font-size:2rem;
+  border-bottom:1.5px solid rgb(26, 163, 255);
+  line-height: 40px;
+  margin-left:20px;
+  margin-top:15px;
+}
+
+#third-event-title-one::first-letter{
+  color:rgb(26, 255, 186);
+  font-weight:bold;
+  font-size:2.7rem;
+}
+
+#third-event-title-two{
+  font-family: 'Thasadith', sans-serif;
+  font-size:2rem;
+  border-bottom:1.5px solid rgb(26, 255, 244);
+  line-height: 30px;
+  margin-left:20px;
+    margin-top:15px;
+}
+
+#third-event-title-two::first-letter{
+  color:rgb(26, 209, 255);
+  font-weight:bold;
+  font-size:2.7rem; 
+}
+
+#third-event-speaker{
+  line-height: 35px;
+  /* margin:0px 10px 10px 5px; */
+  font-size: 1.2rem;
+  border-bottom:1.5px solid rgb(26, 255, 186);
+  margin-left:40px;
+}
+
+#third-event-speaker::first-letter{
+  color:rgb(26, 133, 255);
+  font-weight:bold;
+  font-size:1.3rem; 
+}
+
+#third-event-description{
+  padding:20px 15px 0px 15px;
+  line-height: 23px;
+  font-size: 1rem;
+  /* border:1px solid rgb(26, 255, 121); */
+
+}
+
+
+
+
+
+  .wrap-two-nest-two{
+    width:100%;
+    height: 45%;
+    /* border:4px solid rgb(6, 255, 213); */
+  }
+
+  
+  /* Event Wrapper for 2 Courses */
+
+  .events-wrapper-three{
+    width:100%;
+    height:95vh;
+    border:3px solid green;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+
+
+  .wrap-three-nest-one{
+    height: 45%;
+    
+  }
+
+
+  .wrap-three-nest-two{
+    height: 45%;
+  }
+
+    /* Event Wrapper for 2 Courses */
+
+  .events-wrapper-four{
+    width:100%;
+    height:95vh;
+    border:3px solid rgb(255, 6, 222);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+
+
+  .wrap-four-nest-one{
+    height: 45%;
+    
+  }
+
+
+  .wrap-four-nest-two{
+    height: 45%;
+  }
+  
   
   
 }
