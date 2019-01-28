@@ -1039,7 +1039,7 @@ grid-auto-rows: minmax(50px, auto);
 }
 
 #third-event-photo{
-  background-image:url("../img/Akina-test-one.jpg");
+  background-image:url("../img/Akina-test-two.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2224,7 +2224,7 @@ padding-left:5px;
   }
 
   #third-event-photo{
-    background-image:url("../img/Akina-test-one.jpg");
+    background-image:url("../img/Akina-test-two.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2233,7 +2233,7 @@ padding-left:5px;
 }
 
 #third-event-title-one{
-  background-color: rgba(36, 204, 255, 0.658););
+  background-color: rgba(36, 204, 255, 0.658);
 color:blanchedalmond;
 font-family: 'Josefin Sans', sans-serif;
   font-size:2rem;
@@ -2408,11 +2408,9 @@ grid-row:5;
 
 
 
-
-  
-  
-  
 }
+  
+  
 
 
 
