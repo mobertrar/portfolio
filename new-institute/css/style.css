@@ -41,7 +41,7 @@ html{
 
 }
 
-/* Navigation Container */
+/* Navigation Container Begins*/
 
 #header{
   height: 100px;
@@ -118,7 +118,9 @@ justify-content: flex-end;
   display: none;
 }
 
-/* Landing Container */
+/* Navigation Container Ends */
+
+/* Landing Container Begins*/
 .landing-grid{
   display:grid;
   grid-gap:20px;
@@ -221,13 +223,14 @@ article a{
 article a:hover{
   color:blanchedalmond;
 }
+/* Landing Container Ends */
 
-/* About Container */
+/* About Container Begins*/
 .about-section{ 
   height: 140vh; 
   width:100%;
   /* border:10px solid green; */
-  background:rgb(255, 255, 255);
+  background:rgb(241, 241, 241);
   /* display: flex; */
 }
 /* About Section */
@@ -375,6 +378,7 @@ article a:hover{
   height: 44px;
   /* border:2px solid yellow; */
 }
+/* About Container Ends */
 /* Desktop Courses Container */
 .desktop-course-container{
 height:50vh;
@@ -482,7 +486,7 @@ margin:10px;
   justify-content: flex-end; */
   /* border:2px solid hotpink; */
 }
-/* Desktop Multi-Color Grid */
+/* Desktop Multi-Color Grid Container Begin*/
 
 #activism{
 background-color:rgba(240, 32, 32, 0.87);
@@ -562,7 +566,8 @@ border:2px solid blanchedalmond;
 background-color:rgba(57, 27, 71, 0.945);
 border:2px solid rgb(112, 109, 104);
                           } 
-/* Calander Courses Container */
+                          
+/* Calander Courses Container Begins */
 
   .course-container{
     /* display: block; */
@@ -694,8 +699,9 @@ font-weight: bold;
     /* border:1px solid red; */
     color:rgb(190, 0, 0);
   }
+  /* Courses Container Ends */
 
- /* Events Container */
+ /* Events Container Begins */
 
  .events-container{
   height: 185vh;
@@ -703,7 +709,7 @@ font-weight: bold;
    background:rgba(255, 255, 255, 0.795);
   /* border:5px dashed rgb(255, 153, 0); */
   /* display: grid; */
-  background-color: rgb(255, 252, 248);
+  background-color: rgb(241, 240, 240);
   padding:20px 30px 30px 30px;
   display: flex;
   flex-flow: column;
@@ -1225,11 +1231,373 @@ grid-row:5;
 
   }
 
+  /* Events Container Ends */
+    /* Membership Container Begins */
+.ship-container{
+  /* border:3px solid tomato; */
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-flow: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  background-color: rgb(255, 252, 248);
+  
+}
+
+.ship-title{
+  width:100%;
+  height:40px;
+  /* border:4px groove rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 40px;
+  color:rgba(0, 22, 82, 0.966);
+  font-variant: small-caps;
+padding:50px;
+
+  
+}
+
+.ship-container h1{
+    border-bottom: 1px solid rgba(206, 206, 206, 0.685);
+}
+
+
+.ship-info-wrapper{
+  /* border:5px solid yellow; */
+  width:900px;
+  height: 600px;
+  box-shadow: var(--shadow);
+}
+
+.ship-picture{
+  /* border:2px solid green; */
+  height: 40%;
+  width:100%;
+  background-image: url(../img/test.background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ship-info-header{
+  width:100%;
+  height:40px;
+  /* border:4px groove rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color:rgba(0, 22, 82, 0.966);
+  padding-bottom:10px;
+  padding-top:30px;
+ 
+}
+
+.ship-info h2{
+  border-bottom: 1px solid rgba(206, 206, 206, 0.685);
+}
+
+.ship-info{
+  /* border:4px dashed red; */
+  /* background-color: rgb(248, 241, 231); */
+  height: 60%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.ship-info p{
+  line-height: 30px;
+  font-size: 1.2rem;
+  font-family: 'Thasadith', sans-serif;
+  padding:30px;
+}
 
 
 
+/* Membership Container Ends */
 
- /* Footer */ 
+
+/* Contact Container Begins */
+
+.contact-container{
+  /* border:4px solid fuchsia; */
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-title{
+  width:100%;
+  height:40px;
+  /* border:4px groove rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 40px;
+  color:rgba(0, 22, 82, 0.966);
+  font-variant: small-caps;
+  padding-top:50px;
+
+
+  
+}
+
+
+.contact-container h1{
+    border-bottom: 1px solid rgba(206, 206, 206, 0.685);
+}
+
+.nauru-photo{
+  width:350px;
+  height: 650px;
+  /* border:2px solid darkorange; */
+  background-image: url(../img/nauru-test-two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  background-position:center;
+  margin-bottom:200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom:35px;
+}
+
+.cont-icon-container{
+/* border:2px solid red; */
+height: 50px;
+width:350px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgba(212, 202, 202, 0.973);
+}
+
+.nauru-contact{
+  width:350px;
+  height: 200px;
+  /* border:2px solid rgb(62, 255, 88); */
+  box-shadow: var(--shadow);
+  background: rgba(212, 202, 202, 0.973);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(53, 53, 53, 0.986);
+/* margin-bottom:80px; */
+z-index: 0;
+  
+}
+
+.nauru-contact h1{
+  font-size: 1.5rem;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bold;
+  border-bottom:1px solid rgba(0, 22, 82, 0.966);
+  color:rgba(0, 22, 82, 0.966);
+  margin-bottom:20px;
+}
+.contact-container h2{
+  margin-bottom:30px;
+  font-size: 1.3rem;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bold;
+  /* border-bottom:1px solid rgba(0, 22, 82, 0.966); */
+  color:rgba(0, 22, 82, 0.966);
+
+}
+.contact-container p{
+  line-height: 30px;
+  font-size: 1rem;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bold;
+}
+
+
+/* Contact Container Ends */
+
+
+/* Donate Container Begins */
+
+.donate-container{
+  /* border:4px dashed turquoise; */
+  height: 130vh;
+  width:100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.donate-title{
+  width:100%;
+  height:80px;
+  /* border:4px groove rebeccapurple; */
+  background:rgba(0, 27, 102, 0.986);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  /* align-items: center; */
+  /* font-size:2rem; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-weight: 40px; */
+  /* color:rgba(3, 38, 134, 0.842); */
+  /* font-variant: small-caps; */
+  
+}
+
+#nih-logo-two{
+  width:150px;
+  height: 50px;
+  /* border:1px solid green; */
+  background-image: url(../img/nih-logo-ryan.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.donate-page-wrapper{
+  width:80rem;
+  height: 115vh;
+  border:1px solid rgb(180, 178, 179);
+  margin-bottom:20px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:20px;
+  font-family: 'Thasadith', sans-serif;
+  font-size:1.2rem;
+}
+
+.donate-page-wrapper h1{
+border-bottom:.5px solid rgba(29, 29, 233, 0.774);
+}
+
+
+.donate-heading{
+  
+  /* border:2px solid green; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  line-height: 40px;
+  box-shadow: var(--shadow);
+  padding:20px;
+  
+}
+
+.donate-sub-heading{
+  /* border:2px dashed blue; */
+  font-size:1.3rem;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.donate-paragraph1{
+  /* border:2px groove gold; */
+  line-height: 25px;
+}
+
+.donate-paragraph2{
+  /* border:2px solid red; */
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.donate-amount{
+  width:150px;
+  height: 50px;
+  border:1px solid rgba(0, 14, 90, 0.952);
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.donate-amount:hover{
+  width:150px;
+  height: 50px;
+  border:2px solid rgb(255, 251, 251);
+  background-color: rgba(0, 14, 90, 0.952);
+  color:rgb(250, 243, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.donate-thank-you{
+  border-bottom:1px solid rgba(207, 207, 207, 0.952);
+
+}
+
+/* Donate Container Ends */
+
+
+/* Footer */
+.footer-container{
+  /* display:none; */
+  width:100%;
+  height: 5vh;
+  border-top:1px solid rgb(109, 109, 109);
+  background:rgba(1, 39, 145, 0.986);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.footer-container h1{
+  color:rgb(253, 247, 237);
+  font-family: 'Thasadith', sans-serif;
+font-style: oblique;
+}
+
+#nih-logo-three{
+  display:none;
+  width:150px;
+  height: 40px;
+  /* border:1px solid green; */
+  background-image: url(../img/Silver-logo1.jpg);
+  background-position: contain;
+  background-repeat: none;
+}
+
+#mail{
+  color:rgb(255, 55, 55);
+}
+
+
+#paypal{
+  color:white;  
+}
+
+#facebook{
+  color:rgb(52, 166, 248);
+}
+
+#twitter{
+  color:rgb(169, 242, 255);
+}
+
+ /* Footer Container Ends */
 
 
 /* Media Queries */
@@ -1461,7 +1829,7 @@ ul a{
 @media(max-width: 500px)
 {
 
-
+/* Header Buttons & Side Menu Begins */
   #myBtn{
     display:none;
     position: fixed;
@@ -1578,8 +1946,9 @@ justify-content: flex-start;
   justify-content: center;
   align-items: center;
 }
+/* Header & Buttons Container Ends */
 
-  /* Landing Contaienr */
+/* Landing Container Begins */
   .landing-grid{
     /* display: flex;
     flex-direction: column; */
@@ -1644,8 +2013,9 @@ justify-content: flex-start;
   .landing-button:hover{
     box-shadow: var(--shadow);
   }
+  /* Landing Container Ends */
 
-  /* about section */
+  /* About Container Begins */
   .about-section{ 
     height: 160vh; 
     width:100%;
@@ -1777,13 +2147,15 @@ justify-content: flex-start;
     width:100%;
     height: 33px;
   }
+  /* About Container Ends */
 
-  /* Desktop Course Container */
+  /* Desktop Course Container Begins */
   .desktop-course-container{
     display:none;
   }
+  /* Desktop Course Container Ends */
 
-  /* Course Container */
+  /* Course Container Begins*/
   .course-container{
     /* display: block; */
     height: 200vh;
@@ -1892,14 +2264,14 @@ font-weight: bold;
     /* border:1px solid red; */
     color:rgb(190, 0, 0);
   }
-
-  /* Events Container */
+/* Course Container Ends */
+  /* Events Container Begins*/
 
   .events-container{
     height: 200vh;
     width:100%;
-     background:rgba(255, 255, 255, 0.795);
-    /* border:5px dashed rgb(238, 255, 0); */
+    
+    /* border:5px dashed rgb(88, 255, 37); */
     display: grid;
     background-color: rgb(255, 252, 248);
     padding:0px;
@@ -2403,16 +2775,294 @@ grid-row:5;
     grid-row:5;
 
   }
+/* Events Container Ends */
+
+  /* Membership Container Begins */
+.ship-container{
+  /* border:3px solid tomato; */
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-flow: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  background-color: rgb(255, 252, 248);
+  
+}
+
+.ship-title{
+  width:100%;
+  height:40px;
+  /* border:4px groove rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 40px;
+  color:rgba(0, 22, 82, 0.966);
+  font-variant: small-caps;
+
+
+  
+}
+
+.ship-container h1{
+    border-bottom: 1px solid rgba(206, 206, 206, 0.685);
+}
+
+
+.ship-info-wrapper{
+  /* border:5px solid yellow; */
+  width:350px;
+  height: 550px;
+  box-shadow: var(--shadow);
+}
+
+.ship-picture{
+  /* border:2px solid green; */
+  height: 40%;
+  width:100%;
+  background-image: url(../img/test.background.jpg);
+  background-repeat: no-repeat;
+}
+
+.ship-info-header{
+  width:100%;
+  height:40px;
+  /* border:4px groove rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color:rgba(0, 22, 82, 0.966);
+  padding-bottom:10px;
+  padding-top:30px;
+ 
+}
+
+.ship-info h2{
+  border-bottom: 1px solid rgba(206, 206, 206, 0.685);
+}
+
+.ship-info{
+  /* border:4px dashed red; */
+  /* background-color: rgb(248, 241, 231); */
+  height: 60%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.ship-info p{
+  line-height: 30px;
+  font-size: 1rem;
+  font-family: 'Thasadith', sans-serif;
+  padding:30px;
+}
 
 
 
 
+/* Membership Container Ends */
+
+
+
+/* Contact Container Begins */
+
+.contact-container{
+  /* border:4px solid fuchsia; */
+  height: 100vh;
+  width:100%;
+  display: grid;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+} 
+
+.contact-title{ 
+  width:100%;
+  height:100px;
+  /* border:4px groove rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 40px;
+  color:rgba(0, 22, 82, 0.966);
+  font-variant: small-caps;
+  padding-top:50px;
+  
+} 
+
+/* Contact Container Ends */
+
+
+
+
+/* Donate Container Begins */
+
+.donate-container{
+  /* border:4px dashed turquoise; */
+  height: 130vh;
+  width:100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
 
 }
+
+.donate-title{
+  width:100%;
+  height:80px;
+  /* border:4px groove rebeccapurple; */
+  background:rgba(0, 27, 102, 0.986);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  /* align-items: center; */
+  /* font-size:2rem; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-weight: 40px; */
+  /* color:rgba(3, 38, 134, 0.842); */
+  /* font-variant: small-caps; */
   
+}
+
+#nih-logo-two{
+  width:150px;
+  height: 50px;
+  /* border:1px solid green; */
+  background-image: url(../img/Silver-logo1.jpg);
+  background-position: center;
+}
+
+.donate-page-wrapper{
+  width:400px;
+  height: 115vh;
+  border:1px solid rgb(180, 178, 179);
+  margin-bottom:20px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:20px;
+  font-family: 'Thasadith', sans-serif;
+  font-size:1.2rem;
+}
+
+
+.donate-heading{
   
+  /* border:2px solid green; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align:left;
+  line-height: 40px;
+}
+
+.donate-sub-heading{
+  /* border:2px dashed blue; */
+  font-size:1.3rem;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.donate-paragraph1{
+  /* border:2px groove gold; */
+  line-height: 25px;
+}
+
+.donate-paragraph2{
+  /* border:2px solid red; */
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.donate-amount{
+  width:150px;
+  height: 50px;
+  border:1px solid rgba(0, 14, 90, 0.952);
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.donate-amount:hover{
+  width:150px;
+  height: 50px;
+  border:2px solid rgb(255, 251, 251);
+  background-color: rgba(0, 14, 90, 0.952);
+  color:rgb(250, 243, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.donate-thank-you{
+  border-bottom:1px solid rgb(0, 3, 201);
+
+}
+
+/* Donate Container Ends */
 
 
+/* Footer */
+.footer-container{
+  /* display:none; */
+  width:100%;
+  height: 5vh;
+  border-top:1px solid rgb(109, 109, 109);
+  background:rgba(1, 39, 145, 0.986);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.footer-container h1{
+  color:rgb(253, 247, 237);
+  font-family: 'Thasadith', sans-serif;
+font-style: oblique;
+}
+
+#nih-logo-three{
+  display:none;
+  width:150px;
+  height: 40px;
+  /* border:1px solid green; */
+  background-image: url(../img/nih-logo-ryan.jpg);
+  background-position: contain;
+  background-repeat: none;
+}
+
+#mail{
+  color:rgb(255, 55, 55);
+}
 
 
+#paypal{
+  color:white;  
+}
 
+#facebook{
+  color:rgb(94, 182, 245);
+}
+
+#twitter{
+  color:rgb(169, 242, 255);
+}
+
+}
