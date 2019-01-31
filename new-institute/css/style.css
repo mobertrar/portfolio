@@ -33,9 +33,9 @@ html{
   /* display: grid; */
   /* grid-gap:15px; */
   /* border:2px solid green; */
-  height: 100vh; background-image: url("../img/background-test2.jpg");
+  height: 100vh; background-image: url("../img/nauru-background-test7.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   background-attachment: fixed;
 
@@ -44,16 +44,16 @@ html{
 /* Navigation Container Begins*/
 
 #header{
-  height: 100px;
-  width: auto;
+  height: 85px;
+  width: 100%;
   /* border:2px solid hotpink; */
+  background-color: #3384fdd0;
+  position:fixed;
 }
 
 .nav-container{
   display:grid;
-  grid-template-areas: 'logo nav';
-
-  
+  grid-template-areas: 'logo nav';  
 }
 
 /* Navigation */
@@ -62,10 +62,15 @@ grid-area: logo;
 /* border:2px solid gold; */
 margin:10px 0px 0px 30px;
 width:224px;
+
 }
 .sidebar{
   grid-area:nav;
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: flex-end;
 }
+
 ul a{
   /* border: 4px solid rgb(0, 255, 221); */
   /* width: 100%; */
@@ -94,12 +99,14 @@ ul a:hover{
 }
 #navbar-container{
 grid-area: nav;
-width:85%;
-/* border:2px dashed darkblue; */
+width:65%;
+/* border:1px solid rgba(216, 216, 216, 0.76); */
 display:flex;
-justify-content: space-between;
+justify-content: space-evenly;
 align-items:center;
-margin-right:40px;
+margin-right:20px;
+
+
 
 }
 
@@ -124,10 +131,14 @@ justify-content: flex-end;
 .landing-grid{
   display:grid;
   grid-gap:20px;
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: repeat(7,1fr);
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas: 
-  'quote quote quote quote quote'
+  'nav nav nav nav nav'
+  '. quote quote quote .'
+  '. quote quote quote .'
+  '. quote quote quote .'
+  '. icon-1 icon-2 icon-3 .'
   '. icon-1 icon-2 icon-3 .'
   '. icon-1 icon-2 icon-3 .';
   width:100%;
@@ -144,10 +155,22 @@ justify-content: flex-end;
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  background-color: rgba(15, 15, 15, 0.651);
+  box-shadow: var(--shadow);
+ padding-top:100px;
+ padding-bottom:100px;
 }
 
-.landing-button{
+#nih-center h1{
+  border-bottom:1px solid white;
+  padding-bottom:0px;
+}
+#nih-center h2{
+  padding-top:50px;
+}
+
+.landing-button{  
 /* border:4px groove rgb(200, 255, 0); */
 width: 90%;
 height:70%;
@@ -155,9 +178,10 @@ height:70%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(119, 119, 119, 0.651);
+  background-color: rgba(15, 15, 15, 0.651);
   /* box-shadow: var(--shadow); */
 }
+
 .landing-button:hover{
   box-shadow: var(--shadow);
 }
@@ -192,21 +216,21 @@ height:70%;
 
 .landing-grid h1{
   font-size:5rem;
-  font-weight: 40px;
+  /* font-weight: bold; */
   font-family: 'Thasadith', sans-serif;
-  color:blanchedalmond;
+  color:rgba(255, 254, 241, 0.911);
   padding:50px;
-  font-variant: small-caps;
-  
+  /* margin-bottom:300px; */
 }
 
 .landing-grid h2{
   font-size:3rem;
-  font-weight: 40px;
+  /* font-weight: bold; */
   font-family: 'Thasadith', sans-serif;
   margin-left:50px;
-  color:blanchedalmond;
-  font-variant: small-caps;
+  color:rgb(253, 247, 238);
+  font-variant-caps: titling-caps ;
+  /* margin-left:955px; */
   /* border-bottom: 1px solid blanchedalmond; */
 }
 
@@ -233,7 +257,7 @@ article a:hover{
   background:rgb(241, 241, 241);
   /* display: flex; */
 }
-/* About Section */
+
 
 .about-background-1{
   height: 50vh;
@@ -366,20 +390,49 @@ article a:hover{
 #abouth1{
   font-weight: bold;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 #abouth2{
   font-size:1.5rem;
   line-height: 40px;
   /* border:2px solid yellow; */
+  text-align: center;
 }
+
 .space{
   width:100%;
   height: 44px;
   /* border:2px solid yellow; */
 }
 /* About Container Ends */
-/* Desktop Courses Container */
+/* Courses Container */
+#desktop-header-aside{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 40px;
+  color:rgba(0, 22, 82, 0.966);
+}
+
+
+.desktop-course-header{
+  height: 50px;
+  margin-top:200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 40px;
+  border-bottom:.8px solid rgba(204, 204, 204, 0.432);
+  color:rgba(0, 22, 82, 0.966);
+  
+}
+
 .desktop-course-container{
 height:50vh;
 /* border:3px groove orangered; */
@@ -404,56 +457,15 @@ margin:10px;
 }
 
 /* Desktop Courses Section */
-#desktop-header-aside{
-
-  height: 50px;
-  /* border:2px solid hotpink; */
-  grid-column-start: 1;
-  grid-column-end:span 8;
-  margin-top:10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size:2.5rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 40px;
-  border-bottom:.8px solid rgba(204, 204, 204, 0.432);
-  color:rgba(0, 22, 82, 0.966);
-}
-
-
-.desktop-course-header{
-  /* grid-area:desktop-header; */
-  /* width:50px; */
-  height: 50px;
-  /* border:2px solid hotpink; */
-  grid-column-start: 1;
-  grid-column-end:span 8;
-  /* margin-right:20px; */
-  margin-top:90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size:2.5rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 40px;
-  border-bottom:.8px solid rgba(204, 204, 204, 0.432);
-  color:rgba(0, 22, 82, 0.966);
-  
-}
-
 #dk-bx-cntr{
-  /* width:100%; */
+margin-bottom:90px;
   height: 250px;
-
-  /* border:8px dashed rgb(0, 0, 0); */
   grid-row-start: 2;
   grid-column-end:span 8;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  /* flex-shrink:2; */
   padding:20px;
 
 }
@@ -481,10 +493,6 @@ margin:10px;
   font-weight: 40px;
   text-align: center;
   line-height: 25px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-end; */
-  /* border:2px solid hotpink; */
 }
 /* Desktop Multi-Color Grid Container Begin*/
 
@@ -592,6 +600,7 @@ border:2px solid rgb(112, 109, 104);
     color:rgba(0, 22, 82, 0.966);
     margin-bottom:15px;
     margin-top:30px;
+    margin-bottom:30px;
     justify-content: center;
     /* margin-top:10px; */
     
@@ -625,7 +634,6 @@ border:2px solid rgb(112, 109, 104);
   #nih-course:hover{
     border:2px solid yellowgreen;
   }
-
   
   #ldr-date{
     color:rgb(109, 7, 134);
@@ -676,13 +684,9 @@ font-weight: bold;
   }
 
   .icons{
-    /* border:1px solid orange; */
     grid-area:icons;
-    /* text-align: center; */
     display: flex;
     justify-content: space-around;
-  /* padding:20px; */
-
   }
 
   #facebook{
@@ -699,12 +703,13 @@ font-weight: bold;
     /* border:1px solid red; */
     color:rgb(190, 0, 0);
   }
+
   /* Courses Container Ends */
 
  /* Events Container Begins */
 
  .events-container{
-  height: 185vh;
+  height: 200vh;
   width:100%;
    background:rgba(255, 255, 255, 0.795);
   /* border:5px dashed rgb(255, 153, 0); */
@@ -720,6 +725,7 @@ font-weight: bold;
 .header-title{
   width:100%;
   height:40px;
+  margin-top:80px;
   /* border:4px groove rebeccapurple; */
   display: flex;
   justify-content: center;
@@ -1248,6 +1254,7 @@ grid-row:5;
 .ship-title{
   width:100%;
   height:40px;
+  margin-top:80px;
   /* border:4px groove rebeccapurple; */
   display: flex;
   justify-content: center;
@@ -1314,10 +1321,16 @@ padding:50px;
 }
 
 .ship-info p{
-  line-height: 30px;
+  line-height: 25px;
   font-size: 1.2rem;
   font-family: 'Thasadith', sans-serif;
-  padding:30px;
+  padding:25px;
+}
+
+#ship-info-para-bold{
+  font-weight: bold;
+text-decoration: underline solid grey;
+
 }
 
 
@@ -1331,15 +1344,17 @@ padding:50px;
   /* border:4px solid fuchsia; */
   height: 100vh;
   width:100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5,1fr);
+  background-color: rgb(233, 233, 233);
+  /* background-image: url(../img/test-background-two.jpg); */
 }
 
 .contact-title{
   width:100%;
   height:40px;
+  /* margin-top:100px; */
   /* border:4px groove rebeccapurple; */
   display: flex;
   justify-content: center;
@@ -1350,9 +1365,8 @@ padding:50px;
   color:rgba(0, 22, 82, 0.966);
   font-variant: small-caps;
   padding-top:50px;
-
-
-  
+  grid-row:1;
+  grid-column: 3/4;
 }
 
 
@@ -1363,15 +1377,19 @@ padding:50px;
 .nauru-photo{
   width:350px;
   height: 650px;
+  margin-top:120px;
   /* border:2px solid darkorange; */
-  background-image: url(../img/nauru-test-two.jpg);
+  background-image: url(../img/nauru-background-mobile2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;  background-position:center;
+  background-size: cover;  
+  background-position:top center;
   margin-bottom:200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom:35px;
+  grid-row: 3;
+  grid-column: 3/4;
 }
 
 .cont-icon-container{
@@ -1395,7 +1413,7 @@ background: rgba(212, 202, 202, 0.973);
   justify-content: center;
   align-items: center;
   color: rgba(53, 53, 53, 0.986);
-/* margin-bottom:80px; */
+margin-top:80px;
 z-index: 0;
   
 }
@@ -1409,7 +1427,7 @@ z-index: 0;
   margin-bottom:20px;
 }
 .contact-container h2{
-  margin-bottom:30px;
+  margin-bottom:20px;
   font-size: 1.3rem;
   font-family: 'Thasadith', sans-serif;
   font-weight: bold;
@@ -1449,21 +1467,14 @@ z-index: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  /* align-items: center; */
-  /* font-size:2rem; */
-  /* font-family: 'Josefin Sans', sans-serif; */
-  /* font-weight: 40px; */
-  /* color:rgba(3, 38, 134, 0.842); */
-  /* font-variant: small-caps; */
-  
+  padding-left: 20px; 
 }
 
 #nih-logo-two{
   width:150px;
   height: 50px;
   /* border:1px solid green; */
-  background-image: url(../img/nih-logo-ryan.jpg);
+  background-image: url(../img/logo-update.jpg);
   background-position: center;
   background-size: contain;
 }
@@ -1489,7 +1500,6 @@ border-bottom:.5px solid rgba(29, 29, 233, 0.774);
 
 
 .donate-heading{
-  
   /* border:2px solid green; */
   font-size: 1.5rem;
   font-weight: bold;
@@ -1616,7 +1626,7 @@ font-style: oblique;
     z-index: 1;
     position: fixed;
     top:40px;
-    left:80%;
+    left:60%;
     cursor:pointer;
     width:20px;
   }
@@ -1629,8 +1639,15 @@ font-style: oblique;
     border-radius: 50rem;
     box-shadow: var(--shadow);
   }
-  
 
+  #header{
+    position: static;
+    background-color: rgba(15, 15, 15, 0.651);
+    height: 90px;
+    box-shadow: none;
+  }
+  
+  
   .sidebar {
     width: 0;
     position:fixed;
@@ -1670,7 +1687,6 @@ width:65px;
     border-bottom:0px solid white;
   }
 
- 
   
 ul a{
   /* border: 4px solid rgb(0, 255, 221); */
@@ -1720,15 +1736,20 @@ ul a{
    .landing-grid{
     /* display: flex;
     flex-direction: column; */
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 'quote quote quote'
-    'icon-1 icon-2 icon-3';
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: '.quote quote quote.'
+    '.icon-1 icon-2 icon-3.';
     /* border:4px solid rebeccapurple; */
     padding:0px;
     grid-gap:0px;
     width:100%;
     height: 84vh;
     
+  }
+
+  #nih-center h2{
+    margin-right:50px;
   }
 
   .about-section{ 
@@ -1739,13 +1760,11 @@ ul a{
     /* display: flex; */
   }
 
-  /* #nih-center*/
-
   .landing-grid h1{
     font-size:3rem;
     margin:0 auto;
     font-family: 'Thasadith', sans-serif;
-    color:blanchedalmond;
+    color:rgb(247, 239, 229);
     /* padding:50px; */
   }
   
@@ -1754,7 +1773,7 @@ ul a{
     font-family: 'Thasadith', sans-serif;
     margin-left:50px;
     margin-bottom:50px;
-    color:blanchedalmond;
+    color:rgb(255, 248, 236);
   }
   .landing-grid h3{
     font-size:1.5rem;
@@ -1792,13 +1811,80 @@ ul a{
     box-shadow: var(--shadow);
   }
   /* About Container */
+
+  .about-section{ 
+    height: 150vh; 
+    width:100%;
+    margin: 0 auto;
+    /* border:3px solid green; */
+    background:rgb(255, 255, 255);
+  }
+  
   /* About Section */
 
  /* Desktop Courses Container */
-.desktop-course-container{
-  display:none;
+
+ .desktop-course-header{
+   margin-bottom:100px;
+ } 
+ .desktop-course-container{
+  height:200vh;
+  /* border:3px groove orangered; */
+  display: flex;
+  flex-direction: column;
+  grid-gap:0px;
+  padding:0px;
+  margin:10px;
   
   }
+  
+  .desktop-course-container > a {
+    height: 300vh;
+    /* width:200px; */
+  }
+  
+  /* Desktop Courses Section */
+  #dk-bx-cntr{
+    /* width:100%; */
+    height: 300vh;
+    /* border:8px dashed rgb(0, 0, 0); */
+    grid-column-start: 1;
+    /* grid-row-end:span 8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-shrink:2; */
+    padding:20px;
+  
+  }
+  
+  
+  .courses-box{
+    width:190px;
+    height: 200px;
+    border:1px solid rgba(206, 206, 206, 0.767);
+    grid-row-start: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* align-content: ; */
+    padding:20px;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+  } 
+  
+  .box-title{
+    font-size:1.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 40px;
+    text-align: center;
+    line-height: 25px;
+  }
+  
   
   /* Desktop Courses Section */
   
@@ -1839,14 +1925,17 @@ ul a{
 
   .background-image{
     height: 100vh;
-    background-image: url("../img/background-test2.jpg");
+    background-image: url("../img/nauru-background-mobile2.jpg");
     background-repeat: no-repeat;
-    background-position:cover;
+    background-position:bottom center;
     background-size: cover;
     background-attachment: fixed;
   }
 
-  
+  #header{
+    position: static;
+    background-color: rgba(15, 15, 15, 0.651);
+  }
 
 .nav-container{
     grid-template-areas: 'logo'
@@ -1863,7 +1952,7 @@ ul a{
     z-index: 1;
     position: fixed;
     top:40px;
-    left:85%;
+    left:80%;
     cursor:pointer;
     width:20px;
   }
@@ -1927,7 +2016,13 @@ width:65px;
   justify-content: space-between;
   align-items: flex-start;
   padding:20px;
+  position: relative;
+  transition: none;
+  width: 100%;
+  background-color:#1370fc;
 }
+
+
 
 
 #navbar-container a{
@@ -1945,6 +2040,7 @@ justify-content: flex-start;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(77, 73, 73, 0.651);
 }
 /* Header & Buttons Container Ends */
 
@@ -1967,7 +2063,7 @@ justify-content: flex-start;
     font-size:2rem;
     margin:0 auto;
     font-family: 'Thasadith', sans-serif;
-    color:blanchedalmond;
+    color:rgb(248, 243, 234);
     /* padding:50px; */
   }
   
@@ -1976,7 +2072,8 @@ justify-content: flex-start;
     font-family: 'Thasadith', sans-serif;
     margin-left:50px;
     margin-bottom:50px;
-    color:blanchedalmond;
+    color:rgb(255, 246, 233);
+    text-align: center;
   }
   .landing-grid h3{
     font-size:.6rem;
@@ -2017,7 +2114,7 @@ justify-content: flex-start;
 
   /* About Container Begins */
   .about-section{ 
-    height: 160vh; 
+    height: 150vh; 
     width:100%;
     margin: 0 auto;
     /* border:3px solid green; */
@@ -2150,11 +2247,69 @@ justify-content: flex-start;
   /* About Container Ends */
 
   /* Desktop Course Container Begins */
-  .desktop-course-container{
-    display:none;
-  }
-  /* Desktop Course Container Ends */
 
+  .desktop-course-header{
+    margin-bottom:20px;
+  }
+  
+.desktop-course-container{
+  height:280vh;
+  /* border:3px groove orangered; */
+  display: flex;
+  flex-direction: column;
+  grid-gap:0px;
+  padding:0px;
+  margin:10px;
+  
+  }
+  
+  .desktop-course-container > a {
+    height: 300vh;
+    width:200px;
+  }
+  
+  /* Desktop Courses Section */
+  #dk-bx-cntr{
+    /* width:100%; */
+    height: 300vh;
+    /* border:8px dashed rgb(0, 0, 0); */
+    grid-column-start: 1;
+    grid-row-end:span 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-shrink:2; */
+    padding:20px;
+  
+  }
+  
+  
+  .courses-box{
+    width:190px;
+    height: 200px;
+    border:1px solid rgba(206, 206, 206, 0.767);
+    grid-row-start: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* align-content: ; */
+    padding:20px;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+  } 
+  
+  .box-title{
+    font-size:1.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 40px;
+    text-align: center;
+    line-height: 25px;
+  }
+  
   /* Course Container Begins*/
   .course-container{
     /* display: block; */
@@ -2180,6 +2335,10 @@ justify-content: flex-start;
     font-variant: small-caps;
     /* margin-top:10px; */
     
+  }
+
+  .desktop-course-container{
+    margin-top:80px;
   }
 
   .course-grid{
@@ -2280,6 +2439,7 @@ font-weight: bold;
   .header-title{
     width:100%;
     height:40px;
+    margin-top:0px;
     /* border:4px groove rebeccapurple; */
     display: flex;
     justify-content: center;
@@ -2793,6 +2953,7 @@ grid-row:5;
 .ship-title{
   width:100%;
   height:40px;
+  margin-top:0px;
   /* border:4px groove rebeccapurple; */
   display: flex;
   justify-content: center;
@@ -2858,14 +3019,16 @@ grid-row:5;
 }
 
 .ship-info p{
-  line-height: 30px;
+  line-height: 15px;
   font-size: 1rem;
   font-family: 'Thasadith', sans-serif;
   padding:30px;
 }
 
 
-
+#ship-info-para-bold{
+  padding:0px;
+}
 
 /* Membership Container Ends */
 
@@ -2898,6 +3061,24 @@ grid-row:5;
   padding-top:50px;
   
 } 
+
+.nauru-photo{
+  width:350px;
+  height: 650px;
+  margin-top:0px;
+  /* border:2px solid darkorange; */
+  background-image: url(../img/nauru-background-mobile2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position:top center;
+  /* margin-bottom:200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* padding-bottom:35px; */
+  grid-row: 2;
+  grid-column: 3/4;
+}
 
 /* Contact Container Ends */
 
@@ -2939,7 +3120,7 @@ grid-row:5;
   width:150px;
   height: 50px;
   /* border:1px solid green; */
-  background-image: url(../img/Silver-logo1.jpg);
+  background-image: url(../img/logo-update.jpg);
   background-position: center;
 }
 
