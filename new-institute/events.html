@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+   
+  
+    <title>Events New Institute Hawaii</title>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+<script>
+    // <!-- When the user scrolls down 20px from the top of the document, show the button !-->
+    window.onscroll=function() {scrollFunction()};
+    
+    function scrollFunction(){
+        if(document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop>20) {
+            document.getElementById("myBtn").style.display="block";
+        } else{
+            document.getElementById("myBtn").style.display="none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction(){
+        document.body.scrollTop=0;
+        document.documentElement.scrollTop=0;
+        document.documentElement.style.borderRadius="25px";
+    }
+</script>    
+
+
+<script>
+
+document.getElementById('main').addEventListener('click', closeNav);
+
+function openNav(){
+    document.getElementById("mySidenav").style.width="230px";
+    document.getElementById("main");
+}
+
+function closeNav(){
+    document.getElementById("mySidenav").style.width="0";
+    document.getElementById("main").style.marginRight="0";
+}
+</script>
+
+<script>
+        window.onscroll = function() {scrollFunction()};
+       
+       function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+           document.getElementById("header").style.top = "0px";
+         } else {
+           document.getElementById("header").style.top = "-100px";
+         }
+       } 
+       </script>
+       
+<header id="header" >
+    <nav class="nav-container" >
+       
+        <div id="headerLogo-container">
+            <a href="#">
+               <img height="70px" id="toplogo" class="headerLogo" src="img/nih-logo-ryan.jpg" alt=""> 
+            </a>
+        </div> 
+    
+        <div onclick="openNav()" class="open-icon">
+            <div class="hamburger-item"></div>
+            <div class="hamburger-item"></div>
+            <div class="hamburger-item"></div>
+        </div>
+     
+        
+   
+  
+
+        <section id="mySidenav" class="sidebar">
+
+              
+
+        <ul id="navbar-container">
+
+            <a href="javascript:void(0)">
+                    
+                       <span id="space-2"></span>
+                            <div class="closebtn" onclick="closeNav()">    
+                            </div>
+                            
+                            
+                    
+            
+            
+            </a>
+            
+            <a href="index.html">
+                <li>
+                       
+                        <i id="navicon" class="fas fa-home"></i>
+                        <span id="space-bt"></span>
+                         About
+                        
+                </li>
+            </a>
+            <a href="training.html">
+                <li>
+                      <i id="navicon" class="fas fa-chalkboard-teacher"></i>
+
+                      <span id="space-bt"></span>
+                        Training
+                </li>
+            </a>  
+            <a href="events.html">
+                    <li>
+                            <i id="navicon" class="far fa-calendar-alt"></i>
+                        <span id="space-bt"></span>
+                      Events
+                    </li>
+                </a>
+            
+
+            <a href="resources.html">
+                <li>
+                        <i class="fas fa-warehouse"></i>
+                    <span id="space-bt"></span>
+                  Resources
+                </li>
+            </a>   
+            <a href="membership.html">
+                 <li>
+
+                        <i id="navicon" class="far fa-user-circle"></i>
+                    <span id="space-bt"></span>
+                   Membership
+                </li>
+             </a>    
+            <a href="contact.html">
+                <li>
+                        <i id="navicon" class="far fa-envelope"></i>
+                     <span id="space-bt"></span>
+                   Contact
+                 </li>
+            </a>        
+            <a href="donate.html">
+                 <li>
+                    <i id="navicon" class="fas fa-donate"></i>
+                    <span id="space-bt"></span>
+                     Donate
+                </li>
+                </a>
+
+                <a href="log-in.html">
+                        <li>
+                            <i id="navicon" class="fas fa-donate"></i>
+                            <span id="space-bt"></span>
+                                Log In
+                        </li>
+                        </a>
+        </ul> 
+        </section>
+    </nav>
+</header>
+
+    <a name="events"></a>
+
+    <!-- Events Container Start -->
+<section class="events-container">
+<aside class="header-title"><h1>Upcoming Events</h1></aside>
+    <!-- Primary Events Wrapper -->
+<div class="events-wrapper-one">
+
+    <!-- First Event -->
+
+<a href="#">
+<section class="event-nested nest-one" class="workshop">
+
+<div id="first-event-photo"></div>
+<aside id="first-event-date">
+<div class="first-month"> Feb. 2 & March 2</div> 
+<h1 id="first-event-speaker">
+Sterling Higa &
+</h1>
+<h1 id="first-event-speaker">
+Daniel Hugo
+</h1>
+</aside>
+
+<h1 class="first-event-description first-event-time">
+2:00PM - 6:00PM
+</h1>
+
+<h2 class="first-event-description first-event-place">  Nauru Tower
+</h2>
+<h3 class="first-event-description first-event-address">1330 Ala Moana Blvd
+Honolulu, HI 96814</h3>
+
+
+
+<h2 id="first-event-guest-speaker"></h2>
+
+<p id="first-event-title">Public Speaking Workshop</p>
+
+
+
+
+</section>
+</a>
+
+<!-- Second Event -->
+
+<a href="#">
+<section class="event-nested nest-two" class="workshop">
+
+<div id="second-event-photo"></div>
+
+<aside id="second-event-date">
+<div class="second-month">Feb. 9 & March 9</div>
+<h1 id="second-event-speaker">
+Sterling Higa
+</h1>
+<h1 id="second-event-speaker">
+& Daniel Hugo
+</h1>   
+</aside>
+
+<h1 id="second-event-title">
+
+
+Art of Persuasion
+<p>Workshop</p>
+</h1>
+
+
+
+<h2 id="second-event-guest-speaker"></h2>
+
+<h2 class="second-event-description second-event-place">Nauru Tower</h2>
+
+<h1 class="second-event-description second-event-time">2:00PM - 6:00PM</h1>
+
+<h2 class="second-event-description second-event-address">1330 Ala Moana Blvd
+Honolulu, HI 96814</h2>
+
+</section>
+</a>
+</div>
+
+    <!-- Secondary Events Wrapper-->
+<div class="events-wrapper-two">
+
+    <!-- Third Event -->
+<a href="#">
+<section class="event-nested wrap-two-nest-one" class="prest-lecture">
+<aside id="third-event-date">
+<div class="third-month"> February 22</div></aside>
+<div id="third-event-photo" > </div>
+
+<h1 id="third-event-title-one">Innovative Thinking </h1>
+
+<h2 id="third-event-speaker">Dr. Keli'i Akina</h2>
+
+
+<h1 class="third-event-description third-event-time">6:30PM - 8:30PM
+</h1>
+
+
+<h2 class="third-event-description third-event-place">Nauru Tower
+</h2>
+
+
+
+<h3 class="third-event-description third-event-address">1330 Ala Moana Blvd
+Honolulu, HI 96814
+</h3>
+
+
+
+
+</section>
+</a>
+<!-- Fourth Event -->
+<a href="#">
+<section class="event-nested wrap-two-nest-two" class="prest-lecture">
+<aside id="fourth-event-date">
+<div> March 22</div></aside>
+
+
+<div id="fourth-event-photo" ></div>
+
+
+<h1 id="fourth-event-title-one">Innovative Foriegn Policy</h1>
+
+    
+
+<h2 id="fourth-event-speaker">Dr. Ralph Cossa</h2>
+
+<h1 class="fourth-event-description fourth-event-time">6:30PM - 8:30PM
+    </h1>
+
+<h2 class="fourth-event-description fourth-event-place">Nauru Tower
+</h2>
+
+<h3 class="fourth-event-description fourth-event-address">1330 Ala Moana Blvd
+Honolulu, HI 96814
+</h3>
+
+
+
+</section> 
+</a>                
+
+</div>
+
+</section>
+
+                                <!-- Footer -->
+<section class="footer-container">
+
+                                    <div id="nih-logo-three"></div>
+                                
+                                    <h1>© 2019 New Institute Hawaii</h1>
+                                
+                                    
+                                
+                                
+                                
+                                            <a id="mail" href="https://www.eventbrite.com/o/new-institute-17864601933" id="email">
+                                                    <i class="far fa-envelope fa-lg"></i></a>
+                                
+                                             <a  id="twitter" href="https://twitter.com/NewInstituteHI" id="twitter">
+                                                <i class="fab fa-twitter fa-lg"></i>
+                                                     </a>
+                                
+                                            <a id="facebook" href="https://www.facebook.com/newinstitutehawaii" id="facebook"><i class="fab fa-facebook-f fa-lg" ></i></a> 
+                                
+                                            <a href="#" id="paypal"><i class="fab fa-cc-paypal fa-2x"></i></p></a>
+                                
+                                
+                                
+                                        
+                                
+                                
+                                
+                                
+                                
+</section>
+
+
+</body>
+</html>

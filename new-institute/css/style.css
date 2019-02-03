@@ -47,8 +47,10 @@ html{
   height: 85px;
   width: 100%;
   /* border:2px solid hotpink; */
-  background-color: #3384fdd0;
+  background-image: linear-gradient(rgba(136, 182, 252, 0.822),#599afaec, #408bfdf5, #257cff);
   position:fixed;
+  transition: top 0.5s;
+
 }
 
 .nav-container{
@@ -105,8 +107,6 @@ display:flex;
 justify-content: space-evenly;
 align-items:center;
 margin-right:20px;
-
-
 
 }
 
@@ -438,7 +438,7 @@ height:50vh;
 /* border:3px groove orangered; */
 display: grid;
 grid-gap:0px;
-grid-template-columns: repeat(8, 1fr);
+grid-template-columns: repeat(10, 1fr);
 grid-template-rows: repeat(2,1fr);
 padding:0px;
 
@@ -452,7 +452,7 @@ margin:10px;
   width:200px;
   grid-row-start: 2;
   grid-column-start:0; 
-  grid-column-end:span 8;
+  grid-column-end:span 10;
 
 }
 
@@ -461,7 +461,7 @@ margin:10px;
 margin-bottom:90px;
   height: 250px;
   grid-row-start: 2;
-  grid-column-end:span 8;
+  grid-column-end:span 10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -482,7 +482,7 @@ margin-bottom:90px;
   justify-content: space-around;
   /* align-content: ; */
   padding:20px;
-  margin:20px;
+  margin:10px;
   border-radius: 5px;
   box-shadow: var(--shadow);
 } 
@@ -496,12 +496,12 @@ margin-bottom:90px;
 }
 /* Desktop Multi-Color Grid Container Begin*/
 
-#activism{
+#careers{
 background-color:rgba(240, 32, 32, 0.87);
 border:2px solid blanchedalmond;
 }
 
-#activism:hover{
+#careers:hover{
 background-color:rrgba(253, 29, 29, 0.993);
 border:2px solid rgba(167, 165, 163, 0.89);
   }
@@ -531,49 +531,58 @@ border:2px solid blanchedalmond;
   border:2px solid rgba(167, 165, 163, 0.89);
           }
 
-#journalism{
+#campaign{
   background-color:rgba(151, 45, 98, 0.87);
   border:2px solid blanchedalmond;
             }
-#journalism:hover{
+#campaign:hover{
   background-color:rgba(133, 23, 65, 0.87);
   border:2px solid rgba(167, 165, 163, 0.89);
               }
 
-#servant-leadership{
+#activism{
   background-color:rgba(35, 90, 116, 0.87);
  border:2px solid blanchedalmond;}
 
-#servant-leadership:hover{
+#activism:hover{
   background-color:rgba(42, 131, 119, 0.925);
   border:2px solid rgba(167, 165, 163, 0.89);
 }
-#social-media{
+#campus-activism{
   background-color: rgba(207, 68, 17, 0.979);
   border:2px solid blanchedalmond;
 }
-#social-media:hover{
+#campus-activism:hover{
   background-color: rgba(223, 71, 16, 0.986);
   border:2px solid rgba(167, 165, 163, 0.89);
 }
-#careers{
+#beyond-ideas{
 background-color:rgba(37, 31, 83, 0.801);
 border:2px solid blanchedalmond;
 }
 
-#careers:hover{
+#beyond-ideas:hover{
   background-color:rgba(47, 34, 122, 0.966);
   border:2px solid rgba(167, 165, 163, 0.89);
 } 
 
-#writing{
+#servant-leadership{
 background-color:rgba(59, 39, 68, 0.945);
 border:2px solid blanchedalmond;
                         }
-#writing:hover{
+#servant-leadership:hover{
 background-color:rgba(57, 27, 71, 0.945);
 border:2px solid rgb(112, 109, 104);
                           } 
+
+#footsteps-to-freedom{
+background-color:rgba(39, 68, 39, 0.945);
+border:2px solid blanchedalmond;
+}
+#footsteps-to-freedom:hover{
+background-color:rgba(42, 80, 42, 0.945);
+border:2px solid rgb(112, 109, 104);
+} 
                           
 /* Calander Courses Container Begins */
 
@@ -1344,18 +1353,12 @@ text-decoration: underline solid grey;
   /* border:4px solid fuchsia; */
   height: 100vh;
   width:100%;
-  display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5,1fr);
   background-color: rgb(233, 233, 233);
-  /* background-image: url(../img/test-background-two.jpg); */
+
 }
 
 .contact-title{
   width:100%;
-  height:40px;
-  /* margin-top:100px; */
-  /* border:4px groove rebeccapurple; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1364,83 +1367,13 @@ grid-template-rows: repeat(5,1fr);
   font-weight: 40px;
   color:rgba(0, 22, 82, 0.966);
   font-variant: small-caps;
-  padding-top:50px;
-  grid-row:1;
-  grid-column: 3/4;
-}
 
+}
 
 .contact-container h1{
     border-bottom: 1px solid rgba(206, 206, 206, 0.685);
 }
 
-.nauru-photo{
-  width:350px;
-  height: 650px;
-  margin-top:120px;
-  /* border:2px solid darkorange; */
-  background-image: url(../img/nauru-background-mobile2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;  
-  background-position:top center;
-  margin-bottom:200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom:35px;
-  grid-row: 3;
-  grid-column: 3/4;
-}
-
-.cont-icon-container{
-/* border:2px solid red; */
-height: 50px;
-width:350px;
-display: flex;
-justify-content: space-around;
-align-items: center;
-background: rgba(212, 202, 202, 0.973);
-}
-
-.nauru-contact{
-  width:350px;
-  height: 200px;
-  /* border:2px solid rgb(62, 255, 88); */
-  box-shadow: var(--shadow);
-  background: rgba(212, 202, 202, 0.973);
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  color: rgba(53, 53, 53, 0.986);
-margin-top:80px;
-z-index: 0;
-  
-}
-
-.nauru-contact h1{
-  font-size: 1.5rem;
-  font-family: 'Thasadith', sans-serif;
-  font-weight: bold;
-  border-bottom:1px solid rgba(0, 22, 82, 0.966);
-  color:rgba(0, 22, 82, 0.966);
-  margin-bottom:20px;
-}
-.contact-container h2{
-  margin-bottom:20px;
-  font-size: 1.3rem;
-  font-family: 'Thasadith', sans-serif;
-  font-weight: bold;
-  /* border-bottom:1px solid rgba(0, 22, 82, 0.966); */
-  color:rgba(0, 22, 82, 0.966);
-
-}
-.contact-container p{
-  line-height: 30px;
-  font-size: 1rem;
-  font-family: 'Thasadith', sans-serif;
-  font-weight: bold;
-}
 
 
 /* Contact Container Ends */
@@ -1459,25 +1392,10 @@ z-index: 0;
 
 }
 
-.donate-title{
-  width:100%;
-  height:80px;
-  /* border:4px groove rebeccapurple; */
-  background:rgba(0, 27, 102, 0.986);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 20px; 
+.donate-container h1{
+  border-bottom: 1px solid rgb(212, 210, 210);
 }
 
-#nih-logo-two{
-  width:150px;
-  height: 50px;
-  /* border:1px solid green; */
-  background-image: url(../img/logo-update.jpg);
-  background-position: center;
-  background-size: contain;
-}
 
 .donate-page-wrapper{
   width:80rem;
@@ -1615,6 +1533,10 @@ font-style: oblique;
 @media(max-width: 1000px)   
 {
 /* Navigation */
+
+#toplogo{
+  display: none;
+}
   .nav-container{
     grid-template-areas: 'logo'
     'nav';
@@ -1642,7 +1564,7 @@ font-style: oblique;
 
   #header{
     position: static;
-    background-color: rgba(15, 15, 15, 0.651);
+    /* background-color: rgba(15, 15, 15, 0.651); */
     height: 90px;
     box-shadow: none;
   }
@@ -1651,7 +1573,7 @@ font-style: oblique;
   .sidebar {
     width: 0;
     position:fixed;
-    z-index:1;
+    z-index:0;
     top:0;
     right:0;
     overflow-x: hidden;
@@ -1933,8 +1855,9 @@ ul a{
   }
 
   #header{
-    position: static;
-    background-color: rgba(15, 15, 15, 0.651);
+    position: fixed;
+    background-image: none;
+    
   }
 
 .nav-container{
@@ -2253,7 +2176,7 @@ justify-content: flex-start;
   }
   
 .desktop-course-container{
-  height:280vh;
+  height:330vh;
   /* border:3px groove orangered; */
   display: flex;
   flex-direction: column;
@@ -2274,7 +2197,7 @@ justify-content: flex-start;
     height: 300vh;
     /* border:8px dashed rgb(0, 0, 0); */
     grid-column-start: 1;
-    grid-row-end:span 8;
+    grid-row-end:span 10;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2504,7 +2427,7 @@ font-weight: bold;
     justify-content: flex-start;
     grid-column: 1/3;
     grid-row:1/3;
-    /* z-index: 0; */
+    z-index: 99;
   }
 
   #first-event-date{
@@ -3038,47 +2961,150 @@ grid-row:5;
 
 .contact-container{
   /* border:4px solid fuchsia; */
-  height: 100vh;
+  height: 250vh;
   width:100%;
-  display: grid;
+  display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  /* align-items: center; */
+  align-items: center;
+   background-color: rgba(249, 249, 250, 0.747); 
+
 } 
 
 .contact-title{ 
   width:100%;
-  height:100px;
-  /* border:4px groove rebeccapurple; */
+  height:75px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size:2.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 40px;
-  color:rgba(0, 22, 82, 0.966);
+  color:rgba(15, 50, 145, 0.966);
   font-variant: small-caps;
-  padding-top:50px;
+
   
 } 
 
-.nauru-photo{
-  width:350px;
-  height: 650px;
-  margin-top:0px;
-  /* border:2px solid darkorange; */
-  background-image: url(../img/nauru-background-mobile2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;  
-  background-position:top center;
-  /* margin-bottom:200px; */
+.nauru-contact{
+  width:95%;
+  height: 800px;
+  margin:20px;
+  background-color: #fefeff;
+  box-shadow: var(--shadow);
+  font-size: 1.3rem;
+  font-family: 'Thasadith', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  /* padding-bottom:35px; */
-  grid-row: 2;
-  grid-column: 3/4;
+  align-items: center;
+  /* justify-content: space-e */
 }
+
+#contact-header-top{
+  margin:30px;
+  color:rgba(15, 50, 145, 0.966);
+  font-size: 1.8rem;  
+
+}
+
+.nauru-contact form{
+  /* border:2px solid red; */
+  width:100%;
+  padding:0px 50px 0px 50px;
+  line-height: 40px;
+}
+form input{
+  border:1px solid rgb(161, 161, 161);
+  width:100%;
+  border-radius: 10px;
+  padding:10px;
+  margin-top:10px;
+}
+
+.submit-button{
+  border:1px solid rgba(15, 50, 145, 0.966);
+  background-color: rgb(253, 253, 253);
+  font-family: 'Josefin Sans', sans-serif;
+  color:rgba(13, 24, 119, 0.993);
+}
+
+.staff-directory{
+  border:1px solid olive;
+  background-color: rgb(253, 253, 253);
+  color:rgb(36, 48, 12);
+  padding:10px;
+  width:285px;
+  margin-top:30px;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+form textarea{
+  border:1px solid rgb(161, 161, 161);
+  width:100%;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.nauru-contact-2{
+  width:95%;
+  height: 800px;
+  margin:20px;
+  background-color: #e7edf7;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-family: 'Thasadith', sans-serif;
+}
+
+
+
+#contact-header-mid{
+  margin:30px;
+  color:rgba(15, 50, 145, 0.966);
+  font-size: 1.8rem;  
+
+}
+
+
+.nauru-map{
+  /* border:2px solid green; */
+  height: 350px;
+  width: 350px;
+  background-image: url(../img/beach-clouds-daytime-994605.jpg);
+  background-size: cover;
+  box-shadow: var(--shadow);
+}
+
+.cm-cont{
+  /* border:2px solid orange; */
+  height: 200px;
+  width: 100%;
+  margin-bottom:50px;
+  padding:0px 20px 0px 20px;;
+}
+
+
+#mailing-address-name{
+  /* border:2px solid blue; */
+  font-weight: bold;
+  line-height: 30px;
+  padding-left: 25px;
+}
+
+.mail{
+  /* border:2px solid red; */
+  line-height: 30px;
+  padding-left: 25px;
+}
+
+
+
+
+
 
 /* Contact Container Ends */
 

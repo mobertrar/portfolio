@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
    
   
-    <title>About New Institute Hawaii</title>
+    <title>Donate New Institute Hawaii</title>
 </head>
 <body>
         <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
@@ -52,22 +52,18 @@
     }
 </script>
 
-
 <script>
- window.onscroll = function() {scrollFunction()};
+        window.onscroll = function() {scrollFunction()};
+       
+       function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+           document.getElementById("header").style.top = "0px";
+         } else {
+           document.getElementById("header").style.top = "-100px";
+         }
+       } 
+       </script>
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("header").style.top = "0px";
-  } else {
-    document.getElementById("header").style.top = "-100px";
-  }
-} 
-</script>
-
-
-<section class="background-image">
-                                <!-- Navigation -->
 <header id="header" >
     <nav class="nav-container" >
        
@@ -172,81 +168,51 @@ function scrollFunction() {
         </section>
     </nav>
 </header>
-
-                                <!-- Landing Container Start -->
-<section class="landing-grid">
-
-    <div id="nih-center">
-        <h1>New Institute Hawaii</h1>
-        <!-- &nbsp; -->
-        <h2>Providing Leadership Training for Future Leaders</h2>
-    </div>
- 
-
-
-    <article id="icon-container1">
-        <a href="training.html" class="landing-button" >
-            <i class="fas fa-book-reader fa-4x"></i>
-            <h3>Courses</h3>
-        </a>    
-    </article>
-
-    <article id="icon-container2">
-        <a href="#about" class="landing-button">
-                <i class="fas fa-balance-scale fa-4x"></i>
-          <h3>Our Mission</h3>
-        </a> 
-    </article>
-
-    <article id="icon-container3">
-        <a href="events.html" class="landing-button" >
-                <i class="far fa-calendar-alt fa-4x"></i>
-            <h3>Current Events</h3>
-        </a> 
-    </article>
-
+<a name="donate"></a>
+                                <!-- Donate Container Begins -->
+<section class="donate-container">
+        <aside class="ship-title"><h1>Donate</h1></aside>
     
 
-</section>  
+        <div class="donate-page-wrapper">
+            <h1 class="donate-heading">Donate to the New Institute Hawaii</h1>
+
+            <h2 class="donate-sub-heading">We believe in better training through focused teamwork, expert instructors, and unlimited access to our resources.</h2>
+
+            <p class="donate-paragraph1">
+                With your help and contribution we will continue to educate our local and international communities on subjects that inspire growth. 
+            </p>
+
+            <p class="donate-paragraph2">Please feel free to donate via Paypal. &nbsp; &nbsp; <i class="fab fa-cc-paypal fa-2x"></i></p>
+
+
+
+
+           
+<a href="#">
+            <div class="donate-amount ">$50</div>
+</a>
+
+<a href="#">
+            <div class="donate-amount ">$100</div>
+</a>
+<a href="#">
+
+            <div class="donate-amount ">$150</div>
+</a>
+            <span class="donate-thank-you">Thank You For Your Donation</span>
+
+
+        </div>
+
+
+
+
+
 </section>
-                                <!-- Landing Container End-->
+                                <!-- Donate Container Ends -->
 
-                                <!-- About Container Begins -->
-<a name="about"></a>
-<section class="about-section">
-    <article class="about-background-1">
-         <div id="image-endorsment" title="Hawaii Pacific University Student Body President Elana Boise - Junior Consultant at New Institute Hawaii">
-             <div id="elana"> Elana Boise, New Institute Junior Leader</div>
-            </div>
-         
-    <div id="bold-char">
-        <h2 id="boldish">We Believe</h2>
-        <h3>in our communities on a global scale, we work to make the world a better place for future generations.</h3>
-    </div>
-    <div id="mission">
-      <a href="#" target="_blank" > <button class="learnmore">Learn More</button></a> 
-</div>
-</article>
-
-
-    <article class="about-background-2">
-        <h1 id="abouth1">About New Institue Hawaii</h1> <div class="space"></div>
-        <h2 id="abouth2">We believe that leaders for tomorrow will emerge through our work. Their impact will restore balance in our communities that will make the world a better place for future generations. We partner with leading Institutes to provide state-of-the-art leadership training to future leaders in politics, governments, public sectors, non-profits and educaiton in America, Asia and across the world.
-        </h2>
-        <div class="space"></div>
-        <h1 id="abouth1">Leaders For Tomorrow </h1> <div class="space"></div>
-        <h2 id="abouth2">New Institute Hawaii is a gathering place for the ambitious and talented. At our headquarters in Nauru Tower in Honolulu, we welcome people of all ages to learn to succeed in politics and effect real change. We provide a place for like-minded people to hold meetings, events, speeches, and organize.
-        </h2>
-        <div class="space"></div>
-        <h1 id="abouth1">Our Vision</h1> <div class="space"></div>
-        <h2 id="abouth2">There is power in organization and we are dedicated to training and mentoring the next generation to make effective policy change, restore balance in our communities, and implement innovative solutions to real world issues.
-        </h2>
-
-    
-</section>
-                                <!-- About Container Ends -->
-
-                                <!-- Footer -->
+                                      <!-- Footer -->
 <section class="footer-container">
 
     <div id="nih-logo-three"></div>
@@ -276,9 +242,7 @@ function scrollFunction() {
 
 
 
-</section>
-
-
-
+</section>                          
+                                
 </body>
 </html>
