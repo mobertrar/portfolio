@@ -378,7 +378,7 @@ article a:hover{
   /* height: 80vh; */
   width:100%;
   /* border:5px solid rgb(204, 0, 255); */
-  padding:90px;
+  padding:200px;
   padding-top:40px;
   font-family: 'Thasadith', sans-serif;
   display: flex;
@@ -1732,6 +1732,7 @@ grid-column: 2/4;
 
 .log-in-container h1{
     border-bottom: 1px solid rgba(206, 206, 206, 0.685);
+    font-weight: bold;
 }
 
 
