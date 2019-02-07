@@ -607,13 +607,44 @@ border:2px solid rgb(112, 109, 104);
     font-weight: 40px;
     border-bottom:.8px solid rgba(204, 204, 204, 0.432);
     color:rgba(0, 22, 82, 0.966);
-    margin-bottom:15px;
+    margin-left:30px;
     margin-top:30px;
     margin-bottom:30px;
     justify-content: center;
     /* margin-top:10px; */
     
   }
+
+  .explain{
+    width:100%;
+    height: 50px;
+    /* border:1px solid rgba(204, 204, 204, 0.897); */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    'edone edtwo edthree .';
+    align-items: center;
+    margin: 20px;
+    padding:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+
+  
+    
+  }
+
+  .explain-grid-one{
+    grid-area:edone;
+    margin-left:200px; 
+  }
+  .explain-grid-two{
+    grid-area:edtwo;
+  }
+  .explain-grid-three{
+    grid-area:edthree;
+  }
+
+  
 
   .course-grid{
     /* display: block; */
@@ -2556,6 +2587,38 @@ justify-content: flex-start;
     
   }
 
+  .explain{
+    width:100%;
+    height: 20px;
+    /* border:1px solid rgba(204, 204, 204, 0.897); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    'edone edtwo edthree .';
+    align-items: center;
+    margin: 0px;
+    padding:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+
+  
+    
+  }
+
+  .explain-grid-one{
+    grid-area:edone;
+    margin-left:0px; 
+  }
+  .explain-grid-two{
+    grid-area:edtwo;
+  }
+  .explain-grid-three{
+    grid-area:edthree;
+  }
+
+  
+
+
   .desktop-course-container{
     margin-top:80px;
   }
@@ -2593,6 +2656,7 @@ justify-content: flex-start;
 /* border:1px solid green; */
 grid-area:date;
 padding:10px;
+margin-left:0px;
 font-size:1.3rem;
 font-weight: bold;
   }
